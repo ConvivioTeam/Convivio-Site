@@ -1,9 +1,9 @@
 ---
 layout: front
-title: Hello, We Are Convivio
+title: Convivio - strategy, design, development.
 ---
 
-We do digital strategy, design, and development.
+## We do digital strategy, design, and development.
 
 Working as one team with you, we can help your organisation go beyond marketing itself on the web to actually delivering core services online.
 
