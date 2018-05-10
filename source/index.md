@@ -43,13 +43,13 @@ include-below:
   </li>
 </ul>
 <ul class="icon-list icon-list--narrow-half icon-list--hide-titles">
-  <li class="icon-list__icon icon-list__icon--sheg">
-    <h3 class="icon-list__title">Stanford Historial Education Group</h3>
+  <li class="icon-list__icon icon-list__icon--cabinet-office">
+  <h3 class="icon-list__title">Cabinet Office</h3>
   </li>
   <li class="icon-list__icon icon-list__icon--moj">
     <h3 class="icon-list__title">Ministry of Justice</h3>
   </li>
-  <li class="icon-list__icon icon-list__icon--redhat">
-    <h3 class="icon-list__title">Redhat</h3>
+  <li class="icon-list__icon icon-list__icon--government-digital-service">
+    <h3 class="icon-list__title">Government Digital Service</h3>
   </li>
 </ul>

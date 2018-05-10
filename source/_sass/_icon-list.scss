@@ -138,6 +138,19 @@
     left: 15px;
   }
 }
+.icon-list__icon--cabinet-office {
+  &:before {
+    background-image: url(../images/client-logos/cabinet-office.svg);
+    width: auto;
+    max-width: 200px;
+  }
+}
+.icon-list__icon--government-digital-service {
+  &:before {
+    background-image: url(../images/client-logos/government-digital-service.svg);
+    width: auto;
+  }
+}
 
 .icon-list__title {
   font-size: 20px;
