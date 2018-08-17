@@ -63,3 +63,10 @@
   width: 230px;
   margin-bottom: 15px;
 }
+
+.site-footer__second-row {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  grid-column-gap: 20px;
+}
