@@ -34,6 +34,9 @@
     margin-bottom: 10px;
   }
 }
+.image-list--contain-image .image-list__image {
+  background-size: contain;
+}
 .image-list__item + .image-list__item {
   @include media-query($medium-layout) {
     padding-left: 20px;
