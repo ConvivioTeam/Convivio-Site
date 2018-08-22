@@ -55,9 +55,17 @@ include-below:
   </li>
 </ul>
 
-<h2 class="sub-heading sub-heading--centered icon-list--massive-top-spacing">Placeholder heading</h2>
-<div class="site-footer__second-row">
-  <img src="/images/affiliates/CCS-supplier-logo-white.svg" />
-  <img src="/images/affiliates/cyber-essentials.svg" />
-  <img class="fair-tax" src="/images/affiliates/fair-tax.svg" />
-</div>
+<h2 class="sub-heading sub-heading--centered icon-list--massive-top-spacing">Accreditations</h2>
+ <ul class="image-list image-list--contain-image image-list--hide-titles">
+  {% for post in site.data.accreditations %}
+    <li class="image-list__item">
+    <a class="image-list__link" target="_blank" rel="noopener" href="{{ post.url }}">
+      <div class="image-list__image" style="background-image: url({{ post.img }})"></div>
+      <h3 class="image-list__title">{{ post.title }}</h3>
+      <p class="image-list__text">
+        {{ post.text }}
+      </p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
