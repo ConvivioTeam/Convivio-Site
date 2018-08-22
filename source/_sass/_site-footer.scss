@@ -65,8 +65,15 @@
 }
 
 .site-footer__second-row {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr;
-  grid-column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  img {
+    height: 90px;
+  }
+  .fair-tax {
+    height: 70px;
+  }
 }
