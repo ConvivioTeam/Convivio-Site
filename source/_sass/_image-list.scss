@@ -48,6 +48,7 @@
   @include media-query($medium-layout) {
     font-size: 20px;
     line-height: 22px;
+    padding: 2px 0;
   }
   .image-list--hide-titles & {
     @include hide-text;

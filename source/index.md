@@ -6,6 +6,7 @@ meta-title-override: Convivio — We bring people together
 include-below:
   - cps-case-study.html
   - recent-blog-posts.html
+  - events.html
 ---
 
 
