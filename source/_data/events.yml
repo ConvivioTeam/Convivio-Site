@@ -4,16 +4,16 @@
   verbage: Lewis Nyman is attending
   date: 2nd November 2018
 
-- title: SilentGovCamp
-  url: http://govcampcymru.org/silentcamp/
-  img: /images/events/silent-gov-camp--small@2x.png
+- title: The Govtech summit
+  url: https://govtechsummit.eu/
+  img: /images/events/govtech-summit--small@2x.jpg
   verbage: Steve Parks is attending
-  date: 18th October 2018
-  location: Cardiff, Wales
+  date: 12th November 2018
+  location: Paris, France
 
-- title: Agile tour london
-  url: http://2018.agiletourlondon.co.uk/
+- title: Agile in the city
+  url: http://agileinthecity.net/2018/bristol/
   verbage: Alice Richmond is attending
-  img: /images/events/agile-tour-london--small@2x.png
-  date: 19th October 2018
-  location: London
+  img: /images/events/agile-in-the-city.svg
+  date: 7th–9th November 2018
+  location: Bristol
