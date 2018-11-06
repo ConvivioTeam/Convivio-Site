@@ -7,23 +7,22 @@
     "url": "https://github.com/ConvivioTeam/Convivio-Site"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.12",
-    "critical": "^0.9.0",
+    "browser-sync": "^2.19.0",
+    "critical": "^1.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^3.4.2",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-imagemin": "^3.3.0",
+    "gulp-imagemin": "^5.0.2",
     "gulp-responsive": "^2.7.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.0",
     "gulp-shell": "^0.6.3",
     "gulp-uglify": "^3.0.0",
-    "gulp-util": "^3.0.8",
     "harmonize": "^2.0.0",
     "sass-svg": "^1.1.0",
-    "sassdash": "^0.8.2"
+    "sassdash": "^0.9.0"
   },
   "dependencies": {
     "add-class": "^1.0.3",

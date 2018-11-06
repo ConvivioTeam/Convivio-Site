@@ -1,0 +1,26 @@
+<div class="cheese-wedge cheese-wedge--right {{ include.classes }}">
+  <div class="cheese-wedge__inner">
+  <div class="cheese-wedge__copy">
+    <h2 id="meet-us" class="site-heading">Meet us</h2>
+
+   <ul class="image-list image-list--contain-image">
+    {% for event in site.data.events %}
+      <li class="image-list__item">
+      <a class="image-list__link" target="_blank" rel="noopener" href="{{ event.url }}">
+        <div class="image-list__image" style="background-image: url({{ event.img }})"></div>
+        <div class="image-list__text">
+          {{ event.verbage }}
+          <h3 class="image-list__title">
+          {{ event.title }}
+          </h3>
+          {{ event.date }}<br />
+          {{ event.location }}
+        </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  </div>
+  </div>
+</div>
