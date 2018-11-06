@@ -14,7 +14,6 @@ var responsive = require('gulp-responsive');
 var clean = require('gulp-clean');
 var ghPages = require('gulp-gh-pages');
 var critical = require('critical').stream;
-var gutil = require('gulp-util');
 
 var sourceDir = './source/';
 var buildDir = './destination'
@@ -116,7 +115,7 @@ gulp.task('critical', ['generate-site'], function (cb) {
         height: 1024
       }]
   }))
-  .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+  .on('error', function(err) { console.log(err.message); })
   .pipe(gulp.dest('destination'));
 });
 
