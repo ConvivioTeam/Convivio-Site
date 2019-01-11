@@ -10,6 +10,7 @@
   @include media-query($medium-layout) {
     text-align: center;
     width: 33%;
+    padding: 0 10px;
   }
 }
 .image-list__link {
@@ -36,11 +37,6 @@
 }
 .image-list--contain-image .image-list__image {
   background-size: contain;
-}
-.image-list__item + .image-list__item {
-  @include media-query($medium-layout) {
-    padding-left: 20px;
-  }
 }
 .image-list__title {
   overflow-wrap: break-word;

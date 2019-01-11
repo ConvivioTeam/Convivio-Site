@@ -1,19 +1,13 @@
-- title: UX Brighton
-  url: https://uxbrighton.org.uk/2018/
-  img: /images/events/ux-brighton.svg
+- title: UKGovcamp 2019
+  url: https://www.ukgovcamp.com/
+  img: /images/events/ukgovcamp--small@2x.png
+  verbage: We're sponsoring
+  date: 19th January 2018
+  location: London, UK
+
+- title: New Adventures
+  url: https://newadventuresconf.com/2019/
+  img: /images/events/na-conf.svg
   verbage: Lewis Nyman is attending
-  date: 2nd November 2018
-
-- title: The Govtech summit
-  url: https://govtechsummit.eu/
-  img: /images/events/govtech-summit--small@2x.jpg
-  verbage: Steve Parks is attending
-  date: 12th November 2018
-  location: Paris, France
-
-- title: Agile in the city
-  url: http://agileinthecity.net/2018/bristol/
-  verbage: Alice Richmond is attending
-  img: /images/events/agile-in-the-city.svg
-  date: 7th–9th November 2018
-  location: Bristol
+  date: 23rd–25th January 2019
+  location: Nottingham, UK
