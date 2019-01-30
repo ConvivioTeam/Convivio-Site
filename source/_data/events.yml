@@ -1,13 +1,12 @@
-- title: UKGovcamp 2019
-  url: https://www.ukgovcamp.com/
-  img: /images/events/ukgovcamp--small@2x.png
-  verbage: We're sponsoring
-  date: 19th January 2018
+- title: PHP UK Conference
+  url: https://www.phpconference.co.uk/
+  img: /images/events/php-uk--small@2x.png
+  verbage: Mike Bell is attending
+  date: 20th–22nd February 2019
   location: London, UK
 
-- title: New Adventures
-  url: https://newadventuresconf.com/2019/
-  img: /images/events/na-conf.svg
-  verbage: Lewis Nyman is attending
-  date: 23rd–25th January 2019
-  location: Nottingham, UK
+- title: UX Camp Brighton
+  url: https://www.uxcampbrighton.org/
+  img: /images/events/uxcamp-brighton--small@2x.png
+  verbage: We're sponsoring
+  date: 9th March 2019
