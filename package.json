@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/ConvivioTeam/Convivio-Site"
   },
+  "scripts": {
+    "start": "gulp"
+  },
   "devDependencies": {
     "browser-sync": "^2.19.0",
     "critical": "^1.0.0",
