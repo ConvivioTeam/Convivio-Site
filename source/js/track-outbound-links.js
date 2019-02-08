@@ -29,19 +29,13 @@ function _gaLt(event){
       else { // Internal file
         ga('send', 'event', 'Download file', el.pathname, referrer);
       }
-      open_link = true;
     }
-    else if ((el.href.indexOf(location.host) == -1) && (el.href.indexOf(blog_url) == -1)) { // External link
+    else if (
+      // Does not contain the domain
+      (el.href.indexOf(location.host) == -1)
+      // Does not start with /
+      && (el.href.indexOf('/') == 0)) {
       ga('send', 'event', 'External link', el.href, referrer);
-      // open_link = true;
-    }
-
-    if (open_link) {
-      setTimeout(function() {
-        window.open(el.href, '_blank');
-      }.bind(el), 500);
-
-      event.preventDefault ? event.preventDefault() : event.returnValue = false;
     }
   }
 }
