@@ -21,7 +21,7 @@
     "gulp-imagemin": "^5.0.2",
     "gulp-responsive": "^2.7.1",
     "gulp-sass": "^4.0.0",
-    "gulp-shell": "^0.6.3",
+    "gulp-shell": "^0.7.0",
     "gulp-uglify": "^3.0.0",
     "harmonize": "^2.0.0",
     "sass-svg": "^1.1.0",
