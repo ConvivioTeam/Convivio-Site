@@ -51,8 +51,8 @@ include-below:
   <li class="icon-list__icon icon-list__icon--cps">
     <h3 class="icon-list__title">Crown Prosecution Service</h3>
   </li>
-  <li class="icon-list__icon icon-list__icon--msf">
-    <h3 class="icon-list__title">MSF</h3>
+  <li class="icon-list__icon icon-list__icon--hackney">
+    <h3 class="icon-list__title">Hackney Council</h3>
   </li>
 </ul>
 

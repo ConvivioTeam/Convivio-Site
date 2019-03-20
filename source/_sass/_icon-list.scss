@@ -104,6 +104,12 @@
     width: auto;
   }
 }
+.icon-list__icon--hackney {
+  &:before {
+    background-image: url(../images/client-logos/hackney--small@2x.png);
+    width: auto;
+  }
+}
 .icon-list__icon--cps {
   &:before {
     background-image: url(../images/client-logos/cps.svg);
