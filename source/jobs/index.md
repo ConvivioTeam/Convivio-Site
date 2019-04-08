@@ -8,13 +8,13 @@ We're always looking to hear from people who would be interested in working with
 
 ## What it's like to work at Convivio
 
-At Convivio we're not just remote, [we're free-range.](https://blog.weareconvivio.com/free-range-working-an-introduction-27eb178db97c) We don't have a central office and we all work from home. We encourage flexible working. [Read more about working from home at Convivio.](/jobs/working-from-home)
+At Convivio we're not remote, [we're free-range.](https://blog.weareconvivio.com/free-range-working-an-introduction-27eb178db97c) We don't have a central office and we all work from home. We encourage flexible working. [Read more about working from home at Convivio.](/jobs/working-from-home)
 
 We're a self-managing company, we all have a high-degreee of ownership over our work environment, process, and output.
 
 We're open and transparent, and believe in doing things right. We're the first digital agency to be [awarded the Fair Tax Mark.](https://blog.weareconvivio.com/convivio-becomes-first-digital-agency-to-be-awarded-the-fair-tax-mark-881021825741)
 
-We offer unlimited holiday, expenses, equipment and training budget, and more freedoms. Subject to peer review on a case by case basis.
+We offer unlimited holiday, expenses, equipment and training budget, and more freedoms. Subject to [peer review](https://cookbook.weareconvivio.com/business-operation-recipe/peer-reviews) on a case by case basis.
 
 We focus on designing and building digital services — helping large government organisations improve how they serve the public. A lot of our clients are based in London.
 
