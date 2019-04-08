@@ -14,7 +14,7 @@ In the project root folder, run:
 
 1. `nvm use`
 1. `npm install --global gulp-cli`
-1. `nvm use`
+1. `nvm install`
 1. `rvm use`
 1. `bundle install`
 
