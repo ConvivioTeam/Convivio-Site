@@ -14,7 +14,7 @@ We're a self-managing company, we all have a high-degreee of ownership over our 
 
 We're open and transparent, and believe in doing things right. We're the first digital agency to be [awarded the Fair Tax Mark.](https://blog.weareconvivio.com/convivio-becomes-first-digital-agency-to-be-awarded-the-fair-tax-mark-881021825741)
 
-We offer unlimited holiday, an unlimited equipment budget, and unlimited training budget.
+We offer unlimited holiday, expenses, equipment and training budget, and more freedoms. Subject to peer review on a case by case basis.
 
 We focus on designing and building digital services — helping large government organisations improve how they serve the public. A lot of our clients are based in London.
 
