@@ -16,7 +16,7 @@ We're open and transparent, and believe in doing things right. We're the first d
 
 We offer unlimited holiday, an unlimited equipment budget, and unlimited training budget.
 
-We focus on designing and building digital services — helping large public sector organisations improve how they serve the public. A lot of our clients are based in London.
+We focus on designing and building digital services — helping large government organisations improve how they serve the public. A lot of our clients are based in London.
 
 ## Our values
 
