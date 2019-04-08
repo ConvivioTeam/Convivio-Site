@@ -12,7 +12,7 @@ At Convivio we're not just remote, [we're free-range.](https://blog.weareconvivi
 
 We're a self-managing company, we all have a high-degreee of ownership over our work environment, process, and output.
 
-We're open and transparent, and believe in doing things right. We're the first digital agency to be [awarded the fair tax mark.](https://blog.weareconvivio.com/convivio-becomes-first-digital-agency-to-be-awarded-the-fair-tax-mark-881021825741)
+We're open and transparent, and believe in doing things right. We're the first digital agency to be [awarded the Fair Tax Mark.](https://blog.weareconvivio.com/convivio-becomes-first-digital-agency-to-be-awarded-the-fair-tax-mark-881021825741)
 
 We offer unlimited holiday, an unlimited equipment budget, and unlimited training budget.
 
