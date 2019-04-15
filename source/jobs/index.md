@@ -2,32 +2,35 @@
 layout: formatted-text
 title: Join the team
 ---
-<p class="intro-copy">There’ll soon be more seats around Convivio’s big table. It’s been a busy summer already and we’re planning to expand our team.</p>
 
-We prefer building relationships to the traditional ‘CV out of the blue’ approach — so we’d like to start hearing from people now who’d be interested in joining us in the coming months.
+## Open Positions
 
-If you’re looking for a new challenge in digital, then Convivio could be the perfect next move for your career.
+We don't have specific open positions right now, but are preparing to recruit soon. Rather than apply as a stranger then, get in touch now. We’re always looking to hear from people who would be interested in working with us in the future, and are happy to have informal conversations. 
 
-## What are we like?
+Drop us a line at <a href="mailto:jobs@weareconvivio.com">jobs@weareconvivio.com</a>
 
-We’re an enthusiastic, collaborative and friendly team who are quickly building a great agency to help our customers solve some big problems.
+## What it's like to work at Convivio
 
-We focus on designing and building digital services — helping large public and private sector organisations move their core processes online.
+At Convivio we're not remote, [we're free-range.](https://blog.weareconvivio.com/free-range-working-an-introduction-27eb178db97c) We don't have a central office and we all work from home. We encourage flexible working. [Read more about working from home at Convivio.](/jobs/working-from-home)
 
-We work in very open ways, and often together with other partner agencies, or clients’ in-house teams.
+We're a self-managing company, we all have a high-degreee of ownership over our work environment, process, and output.
 
-We work in a distributed way, so you can be based anywhere (for now, within the EU), but you must be willing to travel regularly to London for key meetings and events.
+We're open and transparent, and believe in doing things right. We're the first digital agency to be [awarded the Fair Tax Mark.](https://blog.weareconvivio.com/convivio-becomes-first-digital-agency-to-be-awarded-the-fair-tax-mark-881021825741)
 
-You can explore our blog to find out a bit more about who we are and what we’re up to.
+We offer unlimited holiday, expenses, equipment and training budget, and more freedoms — with [peer review](https://cookbook.weareconvivio.com/business-operation-recipe/peer-reviews) rather than management authorisation.
 
-## Who are we looking for?
+We focus on designing and building digital services — helping large government organisations improve how they serve the public. A lot of our clients are based in London.
 
-We're on the lookout for front-end and back-end developers, designers, and delivery managers.
+## Our values
 
-We want good communicators who enjoy solving problems, exploring ideas, discovering new ways to work, working with real people, and working on projects that make a difference.
+<ol class="big-numbers-list">
+  <li><h3 class="big-numbers-list__title">Healthy</h3> Putting people first, looking after ourselves and others, looking long-term, working sustainably. Working with integrity, being honest and frank, being ethical, earning trust. Doing the right thing.</li>
+  <li><h3 class="big-numbers-list__title">Professional</h3> Developing our talents and tools, asking great questions, having high standards and ensuring quality. Achieving excellence. Doing things right.</li>
+  <li><h3 class="big-numbers-list__title">Ambitious</h3> Growing ourselves, our knowledge and our expertise. Constantly seeking to be better. Aiming higher. Thinking long term. Change the world. Do things big.</li>
+  <li><h3 class="big-numbers-list__title">Delivering</h3> Focus and momentum. Meeting the expectations of others. Getting things done.</li>
+  <li><h3 class="big-numbers-list__title">Sharing</h3> Extreme transparency, amazing communication, brilliant collaboration, being open with our work, being consultative, and spreading success. Doing things together.</li>
+</ol>
 
-You’ll like drawing on the walls, sticking up post-its, coaching and supporting others, eating great food, and continuously improving yourself, others, and how we do what we do.
+## Interested?
 
-We’d like to hear from both people we’ve worked with before and fresh faces we haven’t met yet.
-
-Interested? Send an email to introduce yourself, explain where you’d like to fit into our team, and how you’d make a difference to <a href="mailto:hello@weareconvivio.com">hello@weareconvivio.com</a>. Then let’s chat!
+We're always looking to hear from people who would be interested in working with us in the future. Drop us a line at <a href="mailto:jobs@weareconvivio.com">jobs@weareconvivio.com</a>.

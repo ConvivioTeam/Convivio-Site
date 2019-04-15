@@ -4,8 +4,12 @@
 .big-numbers-list {
   list-style-type: none;
   font-size: 18px;
-line-height: 1.35em;
+  line-height: 1.35em;
   margin-top: 30px;
+}
+.big-numbers-list li {
+  list-style-type: none !important;
+  margin-left: 0 !important;
 }
 .big-numbers-list li + li {
   margin-top: 30px;
