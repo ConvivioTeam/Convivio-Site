@@ -2,9 +2,12 @@
 layout: formatted-text
 title: Join the team
 ---
-<p class="intro-copy">We are not currently hiring for any positions.</p>
 
-We're always looking to hear from people who would be interested in working with us in the future. Drop us a line at <a href="mailto:jobs@weareconvivio.com">jobs@weareconvivio.com</a>
+## Open Positions
+
+We don't have specific open positions right now, but are preparing to recruit soon. Rather than apply as a stranger then, get in touch now. We’re always looking to hear from people who would be interested in working with us in the future, and are happy to have informal conversations. 
+
+Drop us a line at <a href="mailto:jobs@weareconvivio.com">jobs@weareconvivio.com</a>
 
 ## What it's like to work at Convivio
 
@@ -14,7 +17,7 @@ We're a self-managing company, we all have a high-degreee of ownership over our 
 
 We're open and transparent, and believe in doing things right. We're the first digital agency to be [awarded the Fair Tax Mark.](https://blog.weareconvivio.com/convivio-becomes-first-digital-agency-to-be-awarded-the-fair-tax-mark-881021825741)
 
-We offer unlimited holiday, expenses, equipment and training budget, and more freedoms.  — with [peer review](https://cookbook.weareconvivio.com/business-operation-recipe/peer-reviews) rather than management authorisation.
+We offer unlimited holiday, expenses, equipment and training budget, and more freedoms — with [peer review](https://cookbook.weareconvivio.com/business-operation-recipe/peer-reviews) rather than management authorisation.
 
 We focus on designing and building digital services — helping large government organisations improve how they serve the public. A lot of our clients are based in London.
 
