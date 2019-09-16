@@ -1,0 +1,3 @@
+# Redirect from jobs page to jobs site
+/jobs                   https://jobs.weareconvivio.com
+/jobs/working-from-home  https://jobs.weareconvivio.com/pages/working-from-home
