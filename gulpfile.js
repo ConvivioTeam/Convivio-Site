@@ -102,7 +102,7 @@ gulp.task('bitmaps', function() {
 });
 
 gulp.task('critical', ['generate-site'], function (cb) {
-  return gulp.src('destination/**/*.html')
+  return gulp.src(['destination/**/*.html', '!destination/climate-strike/index.html'])
   .pipe(critical({
       base: 'destination/',
       css: ['destination/css/style.css'],
