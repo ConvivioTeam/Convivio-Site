@@ -102,7 +102,7 @@ gulp.task('bitmaps', function() {
 });
 
 gulp.task('critical', ['generate-site'], function (cb) {
-  return gulp.src('destination/**/*.html')
+  return gulp.src(['destination/**/*.html', '!destination/climate-strike/index.html'])
   .pipe(critical({
       base: 'destination/',
       css: ['destination/css/style.css'],
@@ -156,7 +156,11 @@ gulp.task('watch', function() {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
 
-  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.yml', 'source/**/*.txt', 'source/_includes/*.css'], ['jekyll-rebuild']);
+  gulp
+  .watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.yml', 'source/**/*.txt', 'source/_includes/*.css'], ['jekyll-rebuild'])
+  .on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });
 
 });
 
