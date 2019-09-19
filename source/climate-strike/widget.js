@@ -10,7 +10,7 @@
   var iframeHost = options.iframeHost !== undefined ? options.iframeHost : 'https://assets.digitalclimatestrike.net';
   var websiteName = options.websiteName || null;
   var footerDisplayStartDate = options.footerDisplayStartDate || new Date(2019, 7, 1);       // August 1st, 2019 - arbitrary date in the past
-  var fullPageDisplayStartDate = options.fullPageDisplayStartDate || new Date(2019, 8, 18);  // September 20th, 2019
+  var fullPageDisplayStartDate = options.fullPageDisplayStartDate || new Date(2019, 8, 20);  // September 20th, 2019
   var forceFullPageWidget = !!options.forceFullPageWidget;
   var cookieExpirationDays = parseFloat(options.cookieExpirationDays || 1);
   var alwaysShowWidget = !!(options.alwaysShowWidget || window.location.hash.indexOf('ALWAYS_SHOW_DIGITAL_CLIMATE_STRIKE') !== -1);
@@ -190,6 +190,11 @@
 
   function getIframeHeight() {
 
+    
+    if(forceFullPageWidget || todayIs(fullPageDisplayStartDate)) {
+      return '100%';
+    }
+
     var isProbablyMobile = window.innerWidth < 600;
 
     if (isProbablyMobile) {
@@ -197,6 +202,13 @@
     } else {
       return '145px';
     }
+  }
+
+  function todayIs(date) {
+    var today = new Date()
+    return date.getFullYear() === today.getFullYear()
+      && date.getMonth() === today.getMonth()
+      && date.getDate() === today.getDate()
   }
 
   // Wait for DOM content to load.
