@@ -190,6 +190,11 @@
 
   function getIframeHeight() {
 
+    
+    if(forceFullPageWidget || todayIs(fullPageDisplayStartDate)) {
+      return '100%';
+    }
+
     var isProbablyMobile = window.innerWidth < 600;
 
     if (isProbablyMobile) {
@@ -197,6 +202,13 @@
     } else {
       return '145px';
     }
+  }
+
+  function todayIs(date) {
+    var today = new Date()
+    return date.getFullYear() === today.getFullYear()
+      && date.getMonth() === today.getMonth()
+      && date.getDate() === today.getDate()
   }
 
   // Wait for DOM content to load.
