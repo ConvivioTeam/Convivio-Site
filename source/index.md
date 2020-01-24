@@ -13,10 +13,10 @@ include-below:
 <h2 class="sub-heading sub-heading--centered">The digital collaboration company</h2>
 
 <ul class="icon-list">
-  <li class="icon-list__icon icon-list__icon--calculate">
+  <li class="icon-list__icon icon-list__icon--connected">
     <h3 class="icon-list__title">Exploring complexity</h3>
   </li>
-  <li class="icon-list__icon icon-list__icon--rosette">
+  <li class="icon-list__icon icon-list__icon--speech">
     <h3 class="icon-list__title">Collaborative working</h3>
   </li>
   <li class="icon-list__icon icon-list__icon--chart">
