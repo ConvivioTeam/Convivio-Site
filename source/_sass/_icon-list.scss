@@ -45,7 +45,7 @@
   }
 }
 .icon-list__icon--chart {
-  color: $keppel;
+  color: #DBA349;
   &:before {
     background-image: url(../images/icons/chart.svg);
   }
@@ -54,6 +54,18 @@
   color: #DBA349;
   &:before {
     background-image: url(../images/icons/phone.svg);
+  }
+}
+.icon-list__icon--atom {
+  color: $jelly-bean;
+  &:before {
+    background-image: url(../images/icons/atom.svg);
+  }
+}
+.icon-list__icon--speech {
+  color: $keppel;
+  &:before {
+    background-image: url(../images/icons/speech.svg);
   }
 }
 .icon-list__icon--connected {
