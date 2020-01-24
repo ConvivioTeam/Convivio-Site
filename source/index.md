@@ -1,7 +1,7 @@
 ---
 layout: page
 title: We bring people together
-description: We do strategy, design, and development to transform your business. Reduce costs. Improve service. Grow sales.
+description: The digital collaboration company
 meta-title-override: Convivio — We bring people together
 include-below:
   - cps-case-study.html
@@ -10,23 +10,23 @@ include-below:
 ---
 
 
-<h2 class="sub-heading sub-heading--centered">We do strategy, design, and development<br class="full-width-only" />  to transform your business.</h2>
+<h2 class="sub-heading sub-heading--centered">The digital collaboration company</h2>
 
 <ul class="icon-list">
   <li class="icon-list__icon icon-list__icon--calculate">
-    <h3 class="icon-list__title">Reduce costs</h3>
+    <h3 class="icon-list__title">Exploring complexity</h3>
   </li>
   <li class="icon-list__icon icon-list__icon--rosette">
-    <h3 class="icon-list__title">Improve service</h3>
+    <h3 class="icon-list__title">Collaborative working</h3>
   </li>
   <li class="icon-list__icon icon-list__icon--chart">
-    <h3 class="icon-list__title">Grow sales</h3>
+    <h3 class="icon-list__title">Better digital services</h3>
   </li>
 </ul>
 
-<p class="intro-copy">It takes a digital leader with a great team around them, working to a solid process, to make it happen.</p>
+<p class="intro-copy">We’re a digital agency that works with the public sector to explore complex problems and improve the way government works for people.</p>
 
-<p class="intro-copy">We’ve helped digital leaders achieve this in government and well-known brands, and we can be your team too.</p>
+<p class="intro-copy">We do this with great collaboration skills, agile ways of working, and digital tools.</p>
 
 <a class="button button--primary button--spacing-top button--spacing-bottom" href="/what-we-do">See what we do</a>
 
