@@ -80,7 +80,7 @@ meta-title: Drupal
     <h2 class="site-heading">Find out more about Drupal</h2>
 
      <ol class="big-numbers-list">
-      <li><a href="http://drupal.com/showcase" target="_blank">Find out who's using Drupal</a> — with case studies of websites from governments to TV stations</li>
+      <li><a href="http://drupal.com/showcases" target="_blank">Find out who's using Drupal</a> — with case studies of websites from governments to TV stations</li>
       <li><a href="https://www.drupal.org" target="_blank">Catch up on the latest news</a> — from the highly active and collaborative Drupal community of over a million people</li>
       <li><a href="https://www.drupical.com" target="_blank">Find local events close to you</a> — there's something happening in the Drupal community all the time, all over the world</li>
     </ol>
