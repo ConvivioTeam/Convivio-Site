@@ -6,11 +6,17 @@ meta-title: About us
 include-below: services.html
 ---
 
-<div class="content-container content-container--wide content-container--top content-container--bottom">
+
+<div class="content-container content-container--bottom content-container--top">
+  <h2 class="site-heading">Our people</h2>
+  {% include team-grid.html %}
+
+</div>
+
+<div class="content-container content-container--wide content-container--bottom">
   <h2 class="sub-heading sub-heading--centered">Our ambition is to do good for a million people.</h2>
 
   <p class="intro-copy spacing-top intro-copy--max-width intro-copy--centered">We do this by helping organisations make measurable improvements to serving people online as citizens, customers, users, and staff.</p>
-  {% include work-grid.html %}
 
 </div>
 
