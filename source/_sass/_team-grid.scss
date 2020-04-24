@@ -44,7 +44,7 @@
 .team-grid__title {
   display: block;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 23px;
 }
 .team-grid__seperator {
   display: none;
@@ -53,4 +53,8 @@
 .team-grid__location {
   display: inline;
   -webkit-font-smoothing: initial;
+}
+.team-grid__link {
+  font-size: 14px;
+  line-height: 17px;
 }
