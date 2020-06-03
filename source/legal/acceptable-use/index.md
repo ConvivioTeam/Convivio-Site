@@ -3,7 +3,7 @@ layout: long-form
 title: Acceptable use policy
 ---
 
-This acceptable use policy sets out the terms between you and us under which you may access our website weareconvivio.com (our site). This acceptable use policy applies to all users of, and visitors to, our site.
+This acceptable use policy sets out the terms between you and us under which you may access our website convivio.com (our site). This acceptable use policy applies to all users of, and visitors to, our site.
 
 Your use of our site means that you accept, and agree to abide by, all the policies in this acceptable use policy, which supplement our terms of website use.
 

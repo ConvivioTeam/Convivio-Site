@@ -5,7 +5,7 @@ title: Terms of website use
 
 ## Terms of website use
 
-This terms of use (together with the documents referred to in it) tells you the terms of use on which you may make use of our website weareconvivio.com (our site), whether as a guest or a registered user. Use of our site includes accessing, browsing, or registering to use our site.
+This terms of use (together with the documents referred to in it) tells you the terms of use on which you may make use of our website convivio.com (our site), whether as a guest or a registered user. Use of our site includes accessing, browsing, or registering to use our site.
 
 Please read these terms of use carefully before you start to use our site, as these will apply to your use of our site.
 
