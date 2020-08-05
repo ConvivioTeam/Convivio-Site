@@ -20,7 +20,7 @@ We use the following types of cookies:
 
 Please note that third parties (including, for example, advertising networks and providers of external services like web traffic analysis services) may also use cookies, over which we have no control. These cookies are likely to be analytical/performance cookies or targeting cookies.
 
-The cookies we use on weareconvivio.com are:
+The cookies we use on convivio.com are:
 
 <table>
     <thead><tr>

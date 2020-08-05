@@ -5,7 +5,7 @@ title: Privacy policy
 
 Convivio Team Ltd ("We") are committed to protecting and respecting your privacy.
 
-This policy (together with our terms of use and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting weareconvivio.com you are accepting and consenting to the practices described in this policy.
+This policy (together with our terms of use and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting convivio.com you are accepting and consenting to the practices described in this policy.
 
 For the purpose of the Data Protection Act 1998 (the Act), the data controller is Convivio Team Ltd of The GridIron Building, One Pancras Square, London, N1C 4AG.
 
@@ -13,7 +13,7 @@ For the purpose of the Data Protection Act 1998 (the Act), the data controller i
 
 We may collect and process the following data about you:
 
-* **Information you give us.** You may give us information about you by filling in forms on our site weareconvivio.com (our site) or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, search, send a contact form, make a request for further information, and when you report a problem with our site. The information you give us may include your name, company name, address, website address, e-mail address and phone number.
+* **Information you give us.** You may give us information about you by filling in forms on our site convivio.com (our site) or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, search, send a contact form, make a request for further information, and when you report a problem with our site. The information you give us may include your name, company name, address, website address, e-mail address and phone number.
 * **Information we collect about you.** With regard to each of your visits to our site we may automatically collect the following information:
     * technical information, including the Internet protocol (IP) address used to connect your computer to the Internet, your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform;
     * information about your visit, including the full Uniform Resource Locators (URL) clickstream to, through and from our site (including date and time); products you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page and any phone number used to call our customer service number.

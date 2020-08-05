@@ -14,7 +14,7 @@ In the project root folder, run:
 
 1. `nvm use`
 1. `npm install --global gulp-cli`
-1. `nvm use`
+1. `nvm install`
 1. `rvm use`
 1. `bundle install`
 
@@ -24,16 +24,13 @@ Run `gulp`
 
 It compiles the site to `destination`, starts a local server for that folder, and watches the various files to recompile when modified.
 
-## Deploying to production
+## Deploy
 
-To ensure the site is built correctly, run:
+First make your changed on a seperate branch and push. Then create a new pull request to generate a Netlify preview.
 
-1. `gulp build`
-2. `gulp deploy`
+Request review by another colleague.
 
-`gulp deploy` pushes the `destination` folder contents to the `gh-pages` branch.
-
-The build and deploy process is currently a little slow in the name of performance and the [critical rendering path.](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+Wait for the changes to be a approved and merged in. Netlify will then automatically deploy them to production.
 
 ## Folder structure
 

@@ -23,6 +23,10 @@ destination: destination
 # Build settings
 markdown: kramdown
 
+# Copy these over
+include:
+  - _redirects
+  
 # Don't copy these over
 exclude:
   - package.json

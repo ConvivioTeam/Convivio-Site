@@ -63,3 +63,17 @@
   width: 230px;
   margin-bottom: 15px;
 }
+
+.site-footer__second-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  img {
+    height: 90px;
+  }
+  .fair-tax {
+    height: 70px;
+  }
+}

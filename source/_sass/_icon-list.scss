@@ -45,7 +45,7 @@
   }
 }
 .icon-list__icon--chart {
-  color: $keppel;
+  color: #DBA349;
   &:before {
     background-image: url(../images/icons/chart.svg);
   }
@@ -54,6 +54,18 @@
   color: #DBA349;
   &:before {
     background-image: url(../images/icons/phone.svg);
+  }
+}
+.icon-list__icon--atom {
+  color: $jelly-bean;
+  &:before {
+    background-image: url(../images/icons/atom.svg);
+  }
+}
+.icon-list__icon--speech {
+  color: $keppel;
+  &:before {
+    background-image: url(../images/icons/speech.svg);
   }
 }
 .icon-list__icon--connected {
@@ -104,6 +116,12 @@
     width: auto;
   }
 }
+.icon-list__icon--hackney {
+  &:before {
+    background-image: url(../images/client-logos/hackney--small@2x.png);
+    width: auto;
+  }
+}
 .icon-list__icon--cps {
   &:before {
     background-image: url(../images/client-logos/cps.svg);
@@ -128,6 +146,7 @@
   &:before {
     background-image: url(../images/client-logos/jac.svg);
     width: auto;
+    max-width: 220px;
   }
 }
 .icon-list__icon--moj {
@@ -135,7 +154,20 @@
     background-image: url(../images/client-logos/moj.svg);
     width: auto;
     position: relative;
-    left: 15px;
+    left: 10px;
+  }
+}
+.icon-list__icon--cabinet-office {
+  &:before {
+    background-image: url(../images/client-logos/cabinet-office.svg);
+    width: auto;
+    max-width: 200px;
+  }
+}
+.icon-list__icon--government-digital-service {
+  &:before {
+    background-image: url(../images/client-logos/government-digital-service.svg);
+    width: auto;
   }
 }
 

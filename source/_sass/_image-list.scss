@@ -10,6 +10,7 @@
   @include media-query($medium-layout) {
     text-align: center;
     width: 33%;
+    padding: 0 10px;
   }
 }
 .image-list__link {
@@ -34,10 +35,8 @@
     margin-bottom: 10px;
   }
 }
-.image-list__item + .image-list__item {
-  @include media-query($medium-layout) {
-    padding-left: 20px;
-  }
+.image-list--contain-image .image-list__image {
+  background-size: contain;
 }
 .image-list__title {
   overflow-wrap: break-word;
@@ -45,6 +44,10 @@
   @include media-query($medium-layout) {
     font-size: 20px;
     line-height: 22px;
+    padding: 2px 0;
+  }
+  .image-list--hide-titles & {
+    @include hide-text;
   }
 }
 .image-list__text {

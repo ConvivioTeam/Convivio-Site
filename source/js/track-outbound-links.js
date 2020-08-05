@@ -20,6 +20,7 @@ function _gaLt(event){
     var filetypes = /\.(zip|rar|tar|gz|exe|dmg|pdf|doc.*|xls.*|ppt.*|pps.*|vcf|txt|csv|rtf|odt|pages|mp3|wav|wma|mov|avi|wmv|mpg|mp4|flv|png|jpg|jpeg|gif|tif|tiff|bmp|svg|eps|ai|psd)$/i;
     var referrer = document.location.pathname + document.location.search;
     var open_link = false;
+    var blog_url = 'blog.weareconvivio.com'
 
     if (el.href.match(filetypes)) { // File download
       if (el.href.indexOf(location.host) == -1) { // External file
@@ -28,19 +29,13 @@ function _gaLt(event){
       else { // Internal file
         ga('send', 'event', 'Download file', el.pathname, referrer);
       }
-      open_link = true;
     }
-    else if (el.href.indexOf(location.host) == -1) { // External link
+    else if (
+      // Does not contain the domain
+      (el.href.indexOf(location.host) == -1)
+      // Does not start with /
+      && (el.href.indexOf('/') == 0)) {
       ga('send', 'event', 'External link', el.href, referrer);
-      // open_link = true;
-    }
-
-    if (open_link) {
-      setTimeout(function() {
-        window.open(el.href, '_blank');
-      }.bind(el), 500);
-
-      event.preventDefault ? event.preventDefault() : event.returnValue = false;
     }
   }
 }
