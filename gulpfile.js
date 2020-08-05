@@ -12,7 +12,6 @@ var imagemin = require('gulp-imagemin');
 var cleanCSS = require('gulp-clean-css');
 var responsive = require('gulp-responsive');
 var clean = require('gulp-clean');
-var ghPages = require('gulp-gh-pages');
 var critical = require('critical').stream;
 
 var sourceDir = './source/';
@@ -44,7 +43,7 @@ gulp.task('sass', function () {
     .pipe(browserSync.stream());
 });
 
-gulp.task('scripts', function () {
+gulp.task('scripts', function (done) {
   gulp.src(jsSrc)
     .pipe(browserify({
       insertGlobals: true,
@@ -53,16 +52,18 @@ gulp.task('scripts', function () {
     .pipe(uglify())
     .pipe(gulp.dest(jsDest));
   browserSync.reload();
+  done();
 });
 
-gulp.task('svgs', function () {
+gulp.task('svgs', function (done) {
   gulp.src(svgSrc)
     .pipe(imagemin())
     .pipe(gulp.dest(imgDest))
   browserSync.reload();
+  done();
 });
 
-gulp.task('bitmaps', function () {
+gulp.task('bitmaps', function (done) {
   gulp.src(imgSrc)
     .pipe(responsive({
       '**/*': [
@@ -98,10 +99,10 @@ gulp.task('bitmaps', function () {
     }))
     .pipe(gulp.dest(imgDest))
   browserSync.reload();
-
+  done();
 });
 
-gulp.task('critical', ['generate-site'], function (cb) {
+gulp.task('critical', gulp.series(generateSite), function () {
   return gulp.src('destination/**/*.html')
     .pipe(critical({
       base: 'destination/',
@@ -122,7 +123,7 @@ gulp.task('critical', ['generate-site'], function (cb) {
 gulp.task('watch', function () {
   gulp
     // Run run `sass` task when sass files change
-    .watch(sassDir, ['sass'])
+    .watch(sassDir, gulp.series('sass'))
     // When there is a change,
     // log a message in the console
     .on('change', function (event) {
@@ -131,7 +132,7 @@ gulp.task('watch', function () {
 
   gulp
     // Run run `scripts` task when js files change
-    .watch(jsDir, ['scripts'])
+    .watch(jsDir, gulp.series('scripts'))
     // When there is a change,
     // log a message in the console
     .on('change', function (event) {
@@ -140,7 +141,7 @@ gulp.task('watch', function () {
 
   gulp
     // Run run `bitmaps` task when bitmap images change
-    .watch(imgSrc, ['bitmaps'])
+    .watch(imgSrc, gulp.series('bitmaps'))
     // When there is a change,
     // log a message in the console
     .on('change', function (event) {
@@ -149,14 +150,14 @@ gulp.task('watch', function () {
 
   gulp
     // Run run `svgs` task when svg images change
-    .watch(svgSrc, ['svgs'])
+    .watch(svgSrc, gulp.series('svgs'))
     // When there is a change,
     // log a message in the console
     .on('change', function (event) {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
     });
 
-  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.yml', 'source/**/*.txt', 'source/_includes/*.css'], ['jekyll-rebuild']);
+  gulp.watch(['source/**/*.md', 'source/**/*.html', 'source/**/*.xml', 'source/**/*.yml', 'source/**/*.txt', 'source/_includes/*.css'], gulp.series('jekyll-rebuild'));
 
 });
 
@@ -164,7 +165,7 @@ gulp.task('watch', function () {
 // It will also autoreload across all devices as well as keep the viewport synchronized
 // between them.
 gulp.task('serve', function () {
-  browserSync.init({
+  return browserSync.init({
     notify: true,
     server: {
       baseDir: buildDir
@@ -172,16 +173,15 @@ gulp.task('serve', function () {
   });
 });
 
-gulp.task('deploy', gulp.series('critical', function () {
-  return gulp.src('./destination/**/*')
-    .pipe(ghPages());
-}));
-
 gulp.task('jekyll-build', shell.task('bundle exec jekyll build --config jekyllconfig.yml'));
-gulp.task('jekyll-rebuild', gulp.series('jekyll-build', function () {
+gulp.task('jekyll-rebuild', gulp.series('jekyll-build', function (done) {
   browserSync.reload();
+  done();
 }));
 
-gulp.task('generate-site', gulp.parallel('jekyll-build', 'sass', 'scripts', 'bitmaps', 'svgs'))
-gulp.task('build', gulp.parallel('critical', 'generate-site'));
-gulp.task('default', gulp.parallel('generate-site', 'serve', 'watch'));
+function generateSite() {
+  return gulp.parallel('jekyll-build', 'sass', 'scripts', 'bitmaps', 'svgs');
+}
+
+exports.default = gulp.series(generateSite, 'serve', 'watch');
+exports.build = gulp.series('critical', generateSite);
