@@ -3,5 +3,5 @@
 /jobs/working-from-home  https://jobs.weareconvivio.com/pages/working-from-home
 
 # Redirect old url to new.
-https://weareconvivio.com https://convivio.com 301!
-https://www.weareconvivio.com https://convivio.com 301!
+https://weareconvivio.com/* https://convivio.com:splat 301!
+https://www.weareconvivio.com/* https://convivio.com:splat 301!
