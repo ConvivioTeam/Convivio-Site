@@ -30,7 +30,7 @@ We use information held about you in the following ways:
 * **Information you give to us.** We will use this information:
     * to carry out our obligations arising from any contracts entered into between you and us and to provide you with the information, products and services that you request from us;
     * to provide you with information about other goods and services we offer that are similar to those that you have already purchased or enquired about;
-    * to provide you with information about goods or services we feel may interest you. If you do not want us to use your data in this way, please email hello@weareconvivio.com with a request to be removed from such future communications;
+    * to provide you with information about goods or services we feel may interest you. If you do not want us to use your data in this way, please email hello@convivio.com with a request to be removed from such future communications;
     * to notify you about changes to our service;
     * to ensure that content from our site is presented in the most effective manner for you and for your computer.
 * **Information we collect about you.** We will use this information:
@@ -69,7 +69,7 @@ Unfortunately, the transmission of information via the internet is not completel
 
 ## Your rights
 
-You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data.  You can also exercise the right at any time by contacting us at hello@weareconvivio.com.
+You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data.  You can also exercise the right at any time by contacting us at hello@convivio.com.
 Our site may, from time to time, contain links to and from external websites of our partner networks, advertisers and affiliates.  If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies.  Please check these policies before you submit any personal data to these websites.
 
 ## Access to information
@@ -82,4 +82,4 @@ Any changes we may make to our privacy policy in the future will be posted on th
 
 ## Contact
 
-Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to <mailto:hello@weareconvivio.com.>
+Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to <mailto:hello@convivio.com.>

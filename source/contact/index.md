@@ -10,9 +10,9 @@ include-below: address.html
 
   <input type="hidden" name="utf8" value="✓">
 
-  <input type="hidden" value="http://weareconvivio.com/thank-you" name="_redirect" />
+  <input type="hidden" value="https://convivio.com/thank-you" name="_redirect" />
 
-    <p class="intro-copy">Send us a message using the form below, or email us directly at  <a href="mailto:hello@weareconvivio.com">hello@weareconvivio.com</a></p>
+    <p class="intro-copy">Send us a message using the form below, or email us directly at  <a href="mailto:hello@convivio.com">hello@convivio.com</a></p>
 
     <div class="form-group">
       <label class="form-label" for="name">Name</label>
