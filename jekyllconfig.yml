@@ -7,12 +7,12 @@
 
 # Site settings
 title: Convivio
-email: hello@weareconvivio.com
+email: hello@convivio.com
 description: > # this means to ignore newlines until "baseurl:"
   We do strategy, design, and development to transform your business. Reduce costs. Improve service. Grow sales.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://weareconvivio.com" # the base hostname & protocol for your site
-twitter_username: weareconvivio
+url: "https://convivio.com" # the base hostname & protocol for your site
+twitter_username: convivio
 github_username:  ConvivioTeam
 repository: ConvivioTeam/Convivio-Site
 

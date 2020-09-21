@@ -1,1 +1,1 @@
-Sitemap: http://convivio.com/sitemap.xml
+Sitemap: https://convivio.com/sitemap.xml
