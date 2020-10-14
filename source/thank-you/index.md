@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Message recieved
+title: Message received
 include-below: address.html
 ---
 
