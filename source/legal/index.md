@@ -55,7 +55,7 @@ If you choose, or you are provided with, a user identification code, password or
 
 We have the right to disable any user identification code or password, whether chosen by you or allocated by us, at any time, if in our reasonable opinion you have failed to comply with any of the provisions of these terms of use.
 
-If you know or suspect that anyone other than you knows your user identification code or password, you must promptly notify us at <mailto:hello@convivio.com.>
+If you know or suspect that anyone other than you knows your user identification code or password, you must promptly notify us at <mailto:hello@convivio.com>.
 
 ## Intellectual property rights
 
@@ -149,7 +149,7 @@ Our site must not be framed on any other site.
 We reserve the right to withdraw linking permission without notice.
 The website in which you are linking to our site must comply in all respects with the content standards set out in our Acceptable Use Policy.
 
-If you wish to make any use of content on our site other than that set out above, please contact <mailto:hello@convivio.com.>
+If you wish to make any use of content on our site other than that set out above, please contact <mailto:hello@convivio.com>.
 
 ## Third party links and resources in our site
 
@@ -165,4 +165,4 @@ If you are a business, these terms of use, its subject matter and its formation 
 
 ## Contact us
 
-To contact us, please email <mailto:hello@convivio.com.>
+To contact us, please email <mailto:hello@convivio.com>.
