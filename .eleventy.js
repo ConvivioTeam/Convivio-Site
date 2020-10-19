@@ -1,10 +1,15 @@
+const sass = require('./build-process/sass-process');
+
 module.exports = function (eleventyConfig) {
-  // Aliases are in relation to the _includes folder
+  // Sass pre-processing
+  sass('./source/_sass/style.scss', './destination/css/style.css');
+
+  // Aliases
   eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
   eleventyConfig.addLayoutAlias('full-width', 'layouts/full-width.html');
   eleventyConfig.addLayoutAlias('long-form', 'layouts/long-form.html');
 
-  // Static files
+  // Static file passthough
   eleventyConfig.addPassthroughCopy('source/images');
   eleventyConfig.addPassthroughCopy('source/js');
   eleventyConfig.addPassthroughCopy('source/webfonts');
@@ -12,6 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('source/favicon-152.png');
   eleventyConfig.addPassthroughCopy('source/robots.txt');
 
+  // Custom markdown library
   let markdownIt = require('markdown-it');
   let options = {
     html: true,
