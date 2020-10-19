@@ -16,13 +16,13 @@
       </nav>
     </div>
 
-    {% assign split_title = page.title | split: ' ' %}
-    {% capture title %}
+    {% assign split_title = title | split: ' ' %}
+    {% capture new_title %}
       {% for word in split_title %}{% if forloop.last == true %}&nbsp;{{ word | strip }}{% else %} {{ word }}{% endif %}{% endfor %}
     {% endcapture %}
 
     <div class="site-header__heading">
-      <h1 class="site-heading site-heading--right">{{ title }}</h1>
+      <h1 class="site-heading site-heading--right">{{ new_title }}</h1>
     </div>
 
   </div>
