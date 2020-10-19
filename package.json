@@ -7,9 +7,11 @@
     "url": "https://github.com/ConvivioTeam/Convivio-Site"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "npx @11ty/eleventy"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
   "dependencies": {
     "add-class": "^1.0.3",
     "autosize": "^4.0.0",
