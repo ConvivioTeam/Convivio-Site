@@ -5,7 +5,7 @@ title: Privacy policy
 
 Convivio Team Ltd ("We") are committed to protecting and respecting your privacy.
 
-This policy (together with our terms of use and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting convivio.com you are accepting and consenting to the practices described in this policy.
+This policy (together with our terms of use and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting convivio.com you are accepting and consenting to the practices described in this policy.
 
 For the purpose of the Data Protection Act 1998 (the Act), the data controller is Convivio Team Ltd of The GridIron Building, One Pancras Square, London, N1C 4AG.
 
@@ -13,11 +13,11 @@ For the purpose of the Data Protection Act 1998 (the Act), the data controller i
 
 We may collect and process the following data about you:
 
-* **Information you give us.** You may give us information about you by filling in forms on our site convivio.com (our site) or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, search, send a contact form, make a request for further information, and when you report a problem with our site. The information you give us may include your name, company name, address, website address, e-mail address and phone number.
-* **Information we collect about you.** With regard to each of your visits to our site we may automatically collect the following information:
-    * technical information, including the Internet protocol (IP) address used to connect your computer to the Internet, your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform;
-    * information about your visit, including the full Uniform Resource Locators (URL) clickstream to, through and from our site (including date and time); products you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page and any phone number used to call our customer service number.
-* **Information we receive from other sources.** We may receive information about you if you use any of the other websites we operate or the other services we provide. We are also working closely with third parties (including, for example, business partners, sub-contractors in technical and hosting services, analytics providers, social networks, search information providers) and may receive information about you from them.
+- **Information you give us.** You may give us information about you by filling in forms on our site convivio.com (our site) or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when you register to use our site, search, send a contact form, make a request for further information, and when you report a problem with our site. The information you give us may include your name, company name, address, website address, e-mail address and phone number.
+- **Information we collect about you.** With regard to each of your visits to our site we may automatically collect the following information:
+  - technical information, including the Internet protocol (IP) address used to connect your computer to the Internet, your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform;
+  - information about your visit, including the full Uniform Resource Locators (URL) clickstream to, through and from our site (including date and time); products you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page and any phone number used to call our customer service number.
+- **Information we receive from other sources.** We may receive information about you if you use any of the other websites we operate or the other services we provide. We are also working closely with third parties (including, for example, business partners, sub-contractors in technical and hosting services, analytics providers, social networks, search information providers) and may receive information about you from them.
 
 ## Cookies
 
@@ -27,37 +27,37 @@ Our website uses cookies to distinguish you from other users of our website. Thi
 
 We use information held about you in the following ways:
 
-* **Information you give to us.** We will use this information:
-    * to carry out our obligations arising from any contracts entered into between you and us and to provide you with the information, products and services that you request from us;
-    * to provide you with information about other goods and services we offer that are similar to those that you have already purchased or enquired about;
-    * to provide you with information about goods or services we feel may interest you. If you do not want us to use your data in this way, please email hello@convivio.com with a request to be removed from such future communications;
-    * to notify you about changes to our service;
-    * to ensure that content from our site is presented in the most effective manner for you and for your computer.
-* **Information we collect about you.** We will use this information:
-    * to administer our site and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;
-    * to improve our site to ensure that content is presented in the most effective manner for you and for your computer;
-    * to allow you to participate in interactive features of our service, when you choose to do so;
-    * as part of our efforts to keep our site safe and secure;
-    * to make suggestions and recommendations to you and other users of our site about goods or services that may interest you or them.
-* **Information we receive from other sources.** We may combine this information with information you give to us and information we collect about you. We may use this information and the combined information for the purposes set out above (depending on the types of information we receive).
+- **Information you give to us.** We will use this information:
+  - to carry out our obligations arising from any contracts entered into between you and us and to provide you with the information, products and services that you request from us;
+  - to provide you with information about other goods and services we offer that are similar to those that you have already purchased or enquired about;
+  - to provide you with information about goods or services we feel may interest you. If you do not want us to use your data in this way, please email hello@convivio.com with a request to be removed from such future communications;
+  - to notify you about changes to our service;
+  - to ensure that content from our site is presented in the most effective manner for you and for your computer.
+- **Information we collect about you.** We will use this information:
+  - to administer our site and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;
+  - to improve our site to ensure that content is presented in the most effective manner for you and for your computer;
+  - to allow you to participate in interactive features of our service, when you choose to do so;
+  - as part of our efforts to keep our site safe and secure;
+  - to make suggestions and recommendations to you and other users of our site about goods or services that may interest you or them.
+- **Information we receive from other sources.** We may combine this information with information you give to us and information we collect about you. We may use this information and the combined information for the purposes set out above (depending on the types of information we receive).
 
 ## Disclosure of your information
 
 We may share your information with selected third parties including:
 
-* Business partners, suppliers and sub-contractors for the performance of any contract we enter into with you;
-* Analytics and search engine providers that assist us in the improvement and optimisation of our site;
-* Providers of information, event and other marketing services we engage.
+- Business partners, suppliers and sub-contractors for the performance of any contract we enter into with you;
+- Analytics and search engine providers that assist us in the improvement and optimisation of our site;
+- Providers of information, event and other marketing services we engage.
 
 We may disclose your personal information to third parties:
 
-* In the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets.
-* If Convivio Team Ltd or substantially all of its assets are acquired by a third party, in which case personal data held by it about its customers will be one of the transferred assets.
-* If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our terms of use or terms and conditions of supply and other agreements; or to protect the rights, property, or safety of Convivio Team Ltd, our customers, or others. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.
+- In the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets.
+- If Convivio Team Ltd or substantially all of its assets are acquired by a third party, in which case personal data held by it about its customers will be one of the transferred assets.
+- If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our terms of use or terms and conditions of supply and other agreements; or to protect the rights, property, or safety of Convivio Team Ltd, our customers, or others. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.
 
-*We do not:*
+_We do not:_
 
-* Sell your information to third parties.
+- Sell your information to third parties.
 
 ## Where we store your personal data
 
@@ -69,8 +69,8 @@ Unfortunately, the transmission of information via the internet is not completel
 
 ## Your rights
 
-You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data.  You can also exercise the right at any time by contacting us at hello@convivio.com.
-Our site may, from time to time, contain links to and from external websites of our partner networks, advertisers and affiliates.  If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies.  Please check these policies before you submit any personal data to these websites.
+You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data. You can also exercise the right at any time by contacting us at hello@convivio.com.
+Our site may, from time to time, contain links to and from external websites of our partner networks, advertisers and affiliates. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites.
 
 ## Access to information
 
@@ -82,4 +82,4 @@ Any changes we may make to our privacy policy in the future will be posted on th
 
 ## Contact
 
-Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to <mailto:hello@convivio.com.>
+Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to <hello@convivio.com>.
