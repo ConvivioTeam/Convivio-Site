@@ -16,9 +16,9 @@ If you do not agree to these terms of use, you must not use our site.
 
 These terms of use refer to the following additional terms, which also apply to your use of our site:
 
-* Our [Privacy Policy,](/legal/privacy-policy) which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using our site, you consent to such processing and you warrant that all data provided by you is accurate.
-* Our [Acceptable Use Policy,](/legal/acceptable-use) which sets out the permitted uses and prohibited uses of our site. When using our site, you must comply with this Acceptable Use Policy.
-* Our [Cookie Policy,](/legal/cookie-policy) which sets out information about the cookies on our site.
+- Our [Privacy Policy,](/legal/privacy-policy) which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using our site, you consent to such processing and you warrant that all data provided by you is accurate.
+- Our [Acceptable Use Policy,](/legal/acceptable-use) which sets out the permitted uses and prohibited uses of our site. When using our site, you must comply with this Acceptable Use Policy.
+- Our [Cookie Policy,](/legal/cookie-policy) which sets out information about the cookies on our site.
 
 ## Information about us
 
@@ -55,11 +55,11 @@ If you choose, or you are provided with, a user identification code, password or
 
 We have the right to disable any user identification code or password, whether chosen by you or allocated by us, at any time, if in our reasonable opinion you have failed to comply with any of the provisions of these terms of use.
 
-If you know or suspect that anyone other than you knows your user identification code or password, you must promptly notify us at <mailto:hello@convivio.com>.
+If you know or suspect that anyone other than you knows your user identification code or password, you must promptly notify us at <hello@convivio.com>.
 
 ## Intellectual property rights
 
-We are the owner or the licensee of all intellectual property rights in our site, and in the material published on it.  Those works are protected by copyright laws and treaties around the world. All such rights are reserved, except where rights are specifically granted through the use of Creative
+We are the owner or the licensee of all intellectual property rights in our site, and in the material published on it. Those works are protected by copyright laws and treaties around the world. All such rights are reserved, except where rights are specifically granted through the use of Creative
 
 Commons or other open source licensing.
 You may print off one copy, and may download extracts, of any page(s) from our site for your personal use and you may draw the attention of others within your organisation to content posted on our site.
@@ -89,11 +89,11 @@ use of or reliance on any content displayed on our site.
 
 If you are a business user, please note that in particular, we will not be liable for:
 
-* loss of profits, sales, business, or revenue;
-business interruption;
-* loss of anticipated savings;
-* loss of business opportunity, goodwill or reputation; or
-any indirect or consequential loss or damage.
+- loss of profits, sales, business, or revenue;
+  business interruption;
+- loss of anticipated savings;
+- loss of business opportunity, goodwill or reputation; or
+  any indirect or consequential loss or damage.
 
 If you are a consumer user, please note that we only provide our site for domestic and private use. You agree not to use our site for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.
 
@@ -125,8 +125,8 @@ You are solely responsible for securing and backing up your content.
 
 When you upload or post content to our site, you grant the following licenses:
 
-* A worldwide, non-exclusive, royalty-free, transferable licence to use, reproduce, distribute, prepare derivative works of, display, and perform that content in connection with the services provided by our site and across different media and to promote the site or services; and
-* A worldwide, non-exclusive, royalty-free, transferable licence to allow third parties to use the content for their purposes.
+- A worldwide, non-exclusive, royalty-free, transferable licence to use, reproduce, distribute, prepare derivative works of, display, and perform that content in connection with the services provided by our site and across different media and to promote the site or services; and
+- A worldwide, non-exclusive, royalty-free, transferable licence to allow third parties to use the content for their purposes.
 
 We will only ever use your materials to carry out your instructions to us – unless, very exceptionally, a court or other regulator orders us to disclose them.
 
@@ -149,7 +149,7 @@ Our site must not be framed on any other site.
 We reserve the right to withdraw linking permission without notice.
 The website in which you are linking to our site must comply in all respects with the content standards set out in our Acceptable Use Policy.
 
-If you wish to make any use of content on our site other than that set out above, please contact <mailto:hello@convivio.com>.
+If you wish to make any use of content on our site other than that set out above, please contact <hello@convivio.com>.
 
 ## Third party links and resources in our site
 
@@ -165,4 +165,4 @@ If you are a business, these terms of use, its subject matter and its formation 
 
 ## Contact us
 
-To contact us, please email <mailto:hello@convivio.com>.
+To contact us, please email <hello@convivio.com>.
