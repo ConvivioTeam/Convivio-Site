@@ -6,7 +6,7 @@ meta-title-override: Convivio — We bring people together
 include-below:
   - cps-case-study.html
   - recent-blog-posts.html
-  - events.html
+  # - events.html
 ---
 
 <h2 class="sub-heading sub-heading--centered">The digital collaboration company</h2>
@@ -57,7 +57,7 @@ include-below:
 
 <h2 class="sub-heading sub-heading--centered icon-list--massive-top-spacing">Accreditations</h2>
  <ul class="image-list image-list--contain-image image-list--hide-titles">
-  {% for post in site.data.accreditations %}
+  {% for post in accreditations %}
     <li class="image-list__item">
     <a class="image-list__link" target="_blank" rel="noopener" href="{{ post.url }}">
       <div class="image-list__image" style="background-image: url({{ post.img }})"></div>
