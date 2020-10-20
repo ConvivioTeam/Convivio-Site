@@ -9,7 +9,6 @@ include-below:
   - events.html
 ---
 
-
 <h2 class="sub-heading sub-heading--centered">The digital collaboration company</h2>
 
 <ul class="icon-list">

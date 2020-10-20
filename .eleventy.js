@@ -27,6 +27,12 @@ module.exports = function (eleventyConfig) {
   let markdownLib = markdownIt(options).disable('code');
   eleventyConfig.setLibrary('md', markdownLib);
 
+  // Custom Liquidjs options
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+    strict_filters: true,
+  });
+
   return {
     dir: {
       input: './source',

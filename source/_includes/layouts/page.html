@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  {% include head.html %}
+  {% include 'head.html' %}
   <body>
     <div class="site-background">
-      {% include header.html %} {% if page.include-above %} {% include
-      {{page.include-above}} %} {% endif %}
+      {% include 'header.html' %} {% if include-above %} {% include
+      {{include-above}} %} {% endif %}
 
       <main
         class="content-container content-container--top content-container--bottom"
@@ -12,8 +12,8 @@
         {{ content }}
       </main>
 
-      {% if page.include-below %} {% for item in page.include-below %} {%
-      include {{item}} %} {% endfor %} {% endif %} {% include footer.html %}
+      {% if include-below %} {% for item in include-below %} {% include {{item}}
+      %} {% endfor %} {% endif %} {% include 'footer.html' %}
     </div>
   </body>
 </html>

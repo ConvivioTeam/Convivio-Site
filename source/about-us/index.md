@@ -7,8 +7,7 @@ meta-title: About us
 
 <div class="content-container content-container--bottom content-container--top">
   <h2 class="site-heading">Our people</h2>
-  {% include team-grid.html %}
-
+  {% include 'team-grid.html' %}
 </div>
 
 <div class="content-container content-container--wide content-container--bottom">
@@ -22,16 +21,12 @@ meta-title: About us
   <div class="cheese-wedge__inner">
     <div class="cheese-wedge__copy">
       <h2 class="site-heading">Our focus</h2>
-
       <ol class="big-numbers-list">
-    <li>Developing, using and sharing a solid professional process with better ways to work.</li>
-    <li>Helping changemakers in large organisations deliver positive transformation in the way their organisation works and serve their audiences using digital technology.</li>
-    <li>Building healthy, long-term partnerships with clients and other agencies.</li>
-
-  </ol>
-
+        <li>Developing, using and sharing a solid professional process with better ways to work.</li>
+        <li>Helping changemakers in large organisations deliver positive transformation in the way their organisation works and serve their audiences using digital technology.</li>
+        <li>Building healthy, long-term partnerships with clients and other agencies.</li>
+    </ol>
     </div>
-
   </div>
 </div>
 
@@ -52,4 +47,4 @@ meta-title: About us
 
   </div>
 </div>
-{% include services.html %}
+{% include 'services.html' %}
