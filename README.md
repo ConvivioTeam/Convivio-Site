@@ -15,7 +15,8 @@ In the project root folder, run:
 1. `nvm use`
 1. `npm install --global gulp-cli`
 1. `nvm install`
-1. `rvm use`
+1. `rvm install 2.3.6`
+1. `gem install bundle`
 1. `bundle install`
 
 ## Local development
@@ -26,7 +27,7 @@ It compiles the site to `destination`, starts a local server for that folder, an
 
 ## Deploy
 
-First make your changed on a seperate branch and push. Then create a new pull request to generate a Netlify preview.
+First make your changed on a separate branch and push. Then create a new pull request to generate a Netlify preview.
 
 Request review by another colleague.
 
