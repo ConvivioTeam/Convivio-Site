@@ -12,10 +12,12 @@
             rel="noopener"
             href="{{ post.url }}"
           >
-            <div
-              class="image-list__image"
-              style="background-image: url({{ post.img }})"
-            ></div>
+            <img
+              src="{{ post.img }}"
+              alt=""
+              sizes="(min-width: 900px) 224px,
+            30vw"
+            />
             <div class="image-list__text">
               <h3 class="image-list__title">{{ post.title }}</h3>
               by {{ post.author }}

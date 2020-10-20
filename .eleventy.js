@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
         step: 150, // Width difference between each resized image
       },
       gifToVideo: false, // Convert GIFs to MP4 videos
-      sizes: '100vw', // Default image `sizes` attribute
+      sizes: '30vw', // Default image `sizes` attribute
       lazy: true, // Include `loading="lazy"` attribute for images
       // additional: [
       //   // Globs of additional images to optimize (won't be resized)
