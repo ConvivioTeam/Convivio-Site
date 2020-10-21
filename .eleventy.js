@@ -37,6 +37,13 @@ module.exports = function (eleventyConfig) {
     strict_filters: true,
   });
 
+  // Content collections
+  // Sort team members by 'order' field
+  eleventyConfig.addCollection('team', (collection) => {
+    var team = collection.getFilteredByTag('team');
+    return utils.sortByOrder(team);
+  });
+
   // Responsive images
   eleventyConfig.addPlugin(pluginLocalRespimg, {
     folders: {
@@ -86,4 +93,14 @@ module.exports = function (eleventyConfig) {
       output: './destination',
     },
   };
+};
+
+const utils = {
+  sortByOrder: function (collection) {
+    return collection.sort((a, b) => {
+      if (a.data.order < b.data.order) return -1;
+      else if (a.data.order > b.data.order) return 1;
+      else return 0;
+    });
+  },
 };
