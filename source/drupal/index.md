@@ -43,7 +43,7 @@ meta-title: Drupal
   </div>
 </div>
 
-{% include recent-blog-posts.html classes='cheese-wedge--right' %}
+{% include 'recent-blog-posts.html', classes='cheese-wedge--right' %}
 
 <div class="cheese-wedge cheese-wedge--aquamarine cheese-wedge--align-left">
   <div class="cheese-wedge__inner">
@@ -61,7 +61,6 @@ meta-title: Drupal
   </div>
 </div>
 
-
 <div class="cheese-wedge cheese-wedge--rajah cheese-wedge--right">
   <div class="cheese-wedge__inner">
   <div class="cheese-wedge__copy">
@@ -70,6 +69,7 @@ meta-title: Drupal
     <p class="intro-copy">We're people who can talk human as well as tech, so we'd be happy to chat with you at an early stage to help you steer your Drupal project</p>
 
     <a class="button button--primary button--spacing-top" href="/contact">Contact us</a>
+
   </div>
   </div>
 </div>

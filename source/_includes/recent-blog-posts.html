@@ -1,24 +1,33 @@
-<div class="cheese-wedge cheese-wedge--rajah {{ include.classes }}">
+<div class="cheese-wedge cheese-wedge--rajah {{ classes }}">
   <div class="cheese-wedge__inner">
-  <div class="cheese-wedge__copy">
-    <h2 class="site-heading">On the blog</h2>
+    <div class="cheese-wedge__copy">
+      <h2 class="site-heading">On the blog</h2>
 
-   <ul class="image-list">
-    {% for post in site.data.blog-posts %}
-      <li class="image-list__item">
-      <a class="image-list__link" target="_blank" rel="noopener" href="{{ post.url }}">
-        <div class="image-list__image" style="background-image: url({{ post.img }})"></div>
-        <div class="image-list__text">
-          <h3 class="image-list__title">
-          {{ post.title }}
-          </h3>
-          by {{ post.author }}
-        </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  </div>
+      <ul class="image-list">
+        {% for post in blog-posts %}
+        <li class="image-list__item">
+          <a
+            class="image-list__link"
+            target="_blank"
+            rel="noopener"
+            href="{{ post.url }}"
+          >
+            <div class="image-list__image">
+              <img
+                src="{{ post.img }}"
+                alt=""
+                sizes="(min-width: 900px) 224px,
+            30vw"
+              />
+            </div>
+            <div class="image-list__text">
+              <h3 class="image-list__title">{{ post.title }}</h3>
+              by {{ post.author }}
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>

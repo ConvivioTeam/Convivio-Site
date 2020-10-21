@@ -1,30 +1,22 @@
 {
   "name": "convivio-site",
   "description": "The Convivio website",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/ConvivioTeam/Convivio-Site"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
-    "browser-sync": "^2.19.0",
-    "critical": "^1.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-browserify": "^0.5.1",
-    "gulp-clean": "^0.4.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-imagemin": "^5.0.2",
-    "gulp-responsive": "^2.7.1",
-    "gulp-sass": "^4.0.0",
-    "gulp-shell": "^0.6.3",
-    "gulp-uglify": "^3.0.0",
-    "harmonize": "^2.0.0",
-    "sass-svg": "^1.1.0",
+    "@11ty/eleventy": "^0.11.0",
+    "dotenv": "^8.2.0",
+    "eleventy-plugin-local-respimg": "^0.3.1",
+    "fibers": "^5.0.0",
+    "sass": "^1.27.0",
+    "sass-svg": "^1.2.0",
     "sassdash": "^0.9.0"
   },
   "dependencies": {

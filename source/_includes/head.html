@@ -1,85 +1,107 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon-precomposed" href="/favicon-152.png" />
 
-  <title>{% if page.meta-title-override %}{{ page.meta-title-override | escape }}{% elsif page.meta-title %}{{ page.meta-title | escape }} — Convivio{% elsif page.title %}{{ page.title | escape }}  — Convivio{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>
+    {% if meta-title-override %}{{ meta-title-override | escape }}{% elsif
+    meta-title %}{{ meta-title | escape }} — Convivio{% elsif title %}{{ title |
+    escape }} — Convivio{% else %}{{ site.title | escape }}{% endif %}
+  </title>
 
-  {% if page.description %}
-  <meta name="description" content="{{ page.description | strip_html | strip_newlines | truncate: 160 }}">
+  {% if description %}
+  <meta
+    name="description"
+    content="{{ description | strip_html | strip_newlines | truncate: 160 }}"
+  />
   {% endif %}
 
-  <meta name="google-site-verification" content="KHl4yrET7iiMzLYr9dyL8Zrez6B4ZTFOYjZ7QvOYvNM" />
+  <meta
+    name="google-site-verification"
+    content="KHl4yrET7iiMzLYr9dyL8Zrez6B4ZTFOYjZ7QvOYvNM"
+  />
 
-  <link rel="preload" href="/css/style.css?v={{ site.time | date: '%s' }}" as="style" onload="this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}">
-  </noscript>
+  <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}" />
 
-  <script>
-    {% include loadCSS.js %}
-    {% include cssrelpreload.js %}
-  </script>
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
- <style type="text/css">
-     @font-face{
-         font-family:"AvenirNextLTW01-Regular";
-         src:url("/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
-         src:url("/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"),url("/webfonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),url("/webfonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"),url("/webfonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"),url("/webfonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg");
-     }
-     @font-face{
-         font-family:"Avenir Next LT W01 Bold";
-         src:url("/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix");
-         src:url("/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix") format("eot"),url("/webfonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2") format("woff2"),url("/webfonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff"),url("/webfonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf") format("truetype"),url("/webfonts/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857") format("svg");
-     }
-     @font-face{
-         font-family:"Galano Grotesque W00 Bold";
-         src:url("/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix");
-         src:url("/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix") format("eot"),url("/webfonts/50739fd4-8655-482c-8861-eabf3b8dcca9.woff2") format("woff2"),url("/webfonts/27faa970-06ad-413a-ac10-95c42544d00d.woff") format("woff"),url("/webfonts/a3c14aa7-edc3-4e79-8279-5824b3534bd3.ttf") format("truetype"),url("/webfonts/6f2eda25-3276-4d01-a2e7-50d20c645064.svg#6f2eda25-3276-4d01-a2e7-50d20c645064") format("svg");
-     }
- </style>
- <script>
-  (function() {
-
-    if( sessionStorage.foutFontsLoaded ) {
-      document.documentElement.className += " fonts-loaded";
-      return;
+  <style type="text/css">
+    @font-face {
+      font-family: 'AvenirNextLTW01-Regular';
+      src: url('/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix');
+      src: url('/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix')
+          format('eot'),
+        url('/webfonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2')
+          format('woff2'),
+        url('/webfonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff')
+          format('woff'),
+        url('/webfonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf')
+          format('truetype'),
+        url('/webfonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f')
+          format('svg');
     }
-
-   {% include fontfaceobserver.js %}
-
-    var fontA = new FontFaceObserver('AvenirNextLTW01-Regular');
-    var fontB = new FontFaceObserver('Avenir Next LT W01 Bold');
-    var fontC = new FontFaceObserver('Galano Grotesque W00 Bold');
-
-    Promise.all([fontA.load(), fontB.load(), fontC.load()]).then(function () {
-      document.documentElement.className += " fonts-loaded";
-
-      sessionStorage.foutFontsLoaded = true;
-    });
-  })();
-  </script>
+    @font-face {
+      font-family: 'Avenir Next LT W01 Bold';
+      src: url('/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix');
+      src: url('/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix')
+          format('eot'),
+        url('/webfonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2')
+          format('woff2'),
+        url('/webfonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff')
+          format('woff'),
+        url('/webfonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf')
+          format('truetype'),
+        url('/webfonts/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857')
+          format('svg');
+    }
+    @font-face {
+      font-family: 'Galano Grotesque W00 Bold';
+      src: url('/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix');
+      src: url('/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix')
+          format('eot'),
+        url('/webfonts/50739fd4-8655-482c-8861-eabf3b8dcca9.woff2')
+          format('woff2'),
+        url('/webfonts/27faa970-06ad-413a-ac10-95c42544d00d.woff')
+          format('woff'),
+        url('/webfonts/a3c14aa7-edc3-4e79-8279-5824b3534bd3.ttf')
+          format('truetype'),
+        url('/webfonts/6f2eda25-3276-4d01-a2e7-50d20c645064.svg#6f2eda25-3276-4d01-a2e7-50d20c645064')
+          format('svg');
+    }
+  </style>
   <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:343881,hjsv:5};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
- <script type="text/javascript">
- var MTIProjectId='f0f498e8-a4b4-4d94-bcdf-8d16e3ae1b24';
-  (function() {
-         var mtiTracking = document.createElement('script');
-         mtiTracking.type='text/javascript';
-         mtiTracking.async='true';
-          mtiTracking.src='/js/mtiFontTrackingCode.js';
-         (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+    (function() {
+
+      if( sessionStorage.foutFontsLoaded ) {
+        document.documentElement.className += " fonts-loaded";
+        return;
+      }
+
+     {% include 'fontfaceobserver.js' %}
+
+      var fontA = new FontFaceObserver('AvenirNextLTW01-Regular');
+      var fontB = new FontFaceObserver('Avenir Next LT W01 Bold');
+      var fontC = new FontFaceObserver('Galano Grotesque W00 Bold');
+
+      Promise.all([fontA.load(), fontB.load(), fontC.load()]).then(function () {
+        document.documentElement.className += " fonts-loaded";
+
+        sessionStorage.foutFontsLoaded = true;
+      });
     })();
- </script>
+  </script>
+  <script type="text/javascript">
+    var MTIProjectId = 'f0f498e8-a4b4-4d94-bcdf-8d16e3ae1b24';
+    (function () {
+      var mtiTracking = document.createElement('script');
+      mtiTracking.type = 'text/javascript';
+      mtiTracking.async = 'true';
+      mtiTracking.src = '/js/mtiFontTrackingCode.js';
+      (
+        document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]
+      ).appendChild(mtiTracking);
+    })();
+  </script>
 </head>
