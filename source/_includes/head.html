@@ -22,51 +22,54 @@
     content="KHl4yrET7iiMzLYr9dyL8Zrez6B4ZTFOYjZ7QvOYvNM"
   />
 
-  <link rel="stylesheet" href="/css/style.css?v={{ site.time | date: '%s' }}" />
+  <link
+    rel="stylesheet"
+    href="/_assets/css/style.css?v={{ site.time | date: '%s' }}"
+  />
 
   <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
 
   <style type="text/css">
     @font-face {
       font-family: 'AvenirNextLTW01-Regular';
-      src: url('/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix');
-      src: url('/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix')
+      src: url('/_assets/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix');
+      src: url('/_assets/webfonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix')
           format('eot'),
-        url('/webfonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2')
+        url('/_assets/webfonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2')
           format('woff2'),
-        url('/webfonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff')
+        url('/_assets/webfonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff')
           format('woff'),
-        url('/webfonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf')
+        url('/_assets/webfonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf')
           format('truetype'),
-        url('/webfonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f')
+        url('/_assets/webfonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f')
           format('svg');
     }
     @font-face {
       font-family: 'Avenir Next LT W01 Bold';
-      src: url('/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix');
-      src: url('/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix')
+      src: url('/_assets/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix');
+      src: url('/_assets/webfonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix')
           format('eot'),
-        url('/webfonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2')
+        url('/_assets/webfonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2')
           format('woff2'),
-        url('/webfonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff')
+        url('/_assets/webfonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff')
           format('woff'),
-        url('/webfonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf')
+        url('/_assets/webfonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf')
           format('truetype'),
-        url('/webfonts/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857')
+        url('/_assets/webfonts/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857')
           format('svg');
     }
     @font-face {
       font-family: 'Galano Grotesque W00 Bold';
-      src: url('/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix');
-      src: url('/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix')
+      src: url('/_assets/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix');
+      src: url('/_assets/webfonts/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix')
           format('eot'),
-        url('/webfonts/50739fd4-8655-482c-8861-eabf3b8dcca9.woff2')
+        url('/_assets/webfonts/50739fd4-8655-482c-8861-eabf3b8dcca9.woff2')
           format('woff2'),
-        url('/webfonts/27faa970-06ad-413a-ac10-95c42544d00d.woff')
+        url('/_assets/webfonts/27faa970-06ad-413a-ac10-95c42544d00d.woff')
           format('woff'),
-        url('/webfonts/a3c14aa7-edc3-4e79-8279-5824b3534bd3.ttf')
+        url('/_assets/webfonts/a3c14aa7-edc3-4e79-8279-5824b3534bd3.ttf')
           format('truetype'),
-        url('/webfonts/6f2eda25-3276-4d01-a2e7-50d20c645064.svg#6f2eda25-3276-4d01-a2e7-50d20c645064')
+        url('/_assets/webfonts/6f2eda25-3276-4d01-a2e7-50d20c645064.svg#6f2eda25-3276-4d01-a2e7-50d20c645064')
           format('svg');
     }
   </style>
@@ -97,7 +100,7 @@
       var mtiTracking = document.createElement('script');
       mtiTracking.type = 'text/javascript';
       mtiTracking.async = 'true';
-      mtiTracking.src = '/js/mtiFontTrackingCode.js';
+      mtiTracking.src = '/_assets/js/mtiFontTrackingCode.js';
       (
         document.getElementsByTagName('head')[0] ||
         document.getElementsByTagName('body')[0]

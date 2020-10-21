@@ -1,6 +1,10 @@
 <div class="team-profile">
-  <h2 class="team-profile__title">{{ include.title }} in {{ include.location }}</h2>
-  <div class="team-profile__image"><img src="/images/team/{{ include.slug }}.jpg" /></div>
+  <h2 class="team-profile__title">
+    {{ include.title }} in {{ include.location }}
+  </h2>
+  <div class="team-profile__image">
+    <img src="/_assets/images/team/{{ include.slug }}.jpg" />
+  </div>
   <div class="team-profile__links"></div>
   <div class="team-profile__bio">{{ include.bio }}</div>
 </div>
