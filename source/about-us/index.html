@@ -21,12 +21,29 @@ meta-title: About us
       <p class="team-member__info">
         {{ member.data.job }}, {{ member.data.location }}
       </p>
-      <div class="team-member__bio">{{ member.templateContent }}</div>
-      <p class="team-member__read-more">
-        <a href="{{ readmore_link }}"
-          >Read more about {{ member.data.first_name }}</a
-        >
-      </p>
+      <div class="team-member__bio">
+        {{ member.templateContent }}
+
+        <p class="team-member__read-more">
+          <a href="{{ readmore_link }}"
+            >Read more about {{ member.data.first_name }}</a
+          >
+        </p>
+      </div>
+      {% if member.data.external_links %}
+      <div class="team-member__links">
+        <h4 class="hide-text">Social media links</h4>
+        <ul>
+          {% for link in member.data.external_links %}
+          <li
+            class="team-member__link team-member__link--{{ link.service | slug }}"
+          >
+            <a href="{{link.url}}">{{ link.service}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
     </div>
 
     <div class="team-member__section-two">
