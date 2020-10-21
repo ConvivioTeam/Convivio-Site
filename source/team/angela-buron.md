@@ -5,7 +5,7 @@ job: Interaction Design
 location: London
 readmore_link: 'https://blog.weareconvivio.com/meet-the-convivio-team-angela-buron-519b27147c0b'
 dyk: 'Ángela has seen every cat gif on the Internet.'
-order: 2
+order: 3
 image: '/_assets/images/team/angela-buron.jpg'
 external_links:
   - service: Twitter
