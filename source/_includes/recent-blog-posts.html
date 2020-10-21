@@ -12,12 +12,14 @@
             rel="noopener"
             href="{{ post.url }}"
           >
-            <img
-              src="{{ post.img }}"
-              alt=""
-              sizes="(min-width: 900px) 224px,
+            <div class="image-list__image">
+              <img
+                src="{{ post.img }}"
+                alt=""
+                sizes="(min-width: 900px) 224px,
             30vw"
-            />
+              />
+            </div>
             <div class="image-list__text">
               <h3 class="image-list__title">{{ post.title }}</h3>
               by {{ post.author }}
