@@ -58,8 +58,19 @@ $team-member-wide: '(min-width: 585px)';
   margin-top: 10px;
   font-size: 18px;
   line-height: 1.4em;
-  @include media-query($team-member-wide) {
+  @include media-query($team-member-narrow-and-up) {
     margin-top: 20px;
+    position: relative;
+    padding-left: 20px;
+    &::before {
+      content: '';
+      background: url('../images/icons/quote-left.svg') 0 0 no-repeat;
+      background-size: cover;
+      width: 18px;
+      height: 15px;
+      position: absolute;
+      left: -5px;
+    }
   }
 }
 .team-member__read-more {
