@@ -29,6 +29,10 @@ Wait for the changes to be a approved and merged in. Netlify will then automatic
 
 Build related files, you shouldn't have to edit these files unless you're working on the build process of the site.
 
+### build-process
+
+This is for custom code related to our build process.
+
 ### source
 
 Where all the source files are contained, this is where all the content is created.
