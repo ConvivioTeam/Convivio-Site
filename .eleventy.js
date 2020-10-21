@@ -3,7 +3,10 @@ const pluginLocalRespimg = require('eleventy-plugin-local-respimg');
 
 module.exports = function (eleventyConfig) {
   // Sass pre-processing
-  sass('./source/_sass/style.scss', './destination/css/style.css');
+  sass(
+    './source/_assets/sass/style.scss',
+    './destination/_assets/css/style.css'
+  );
 
   // Aliases
   eleventyConfig.addLayoutAlias('page', 'layouts/page.html');
@@ -11,9 +14,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('long-form', 'layouts/long-form.html');
 
   // Static file passthough
-  eleventyConfig.addPassthroughCopy('source/images');
-  eleventyConfig.addPassthroughCopy('source/js');
-  eleventyConfig.addPassthroughCopy('source/webfonts');
+  eleventyConfig.addPassthroughCopy('source/_assets/images');
+  eleventyConfig.addPassthroughCopy('source/_assets/js');
+  eleventyConfig.addPassthroughCopy('source/_assets/webfonts');
   eleventyConfig.addPassthroughCopy('source/favicon.ico');
   eleventyConfig.addPassthroughCopy('source/favicon-152.png');
   eleventyConfig.addPassthroughCopy('source/robots.txt');
