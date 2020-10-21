@@ -11,7 +11,9 @@ $team-member-wide: '(min-width: 585px)';
   }
 }
 .team-member__section-one {
-  order: 2;
+  @include media-query($team-member-narrow-and-up) {
+    order: 2;
+  }
   @include media-query($team-member-wide) {
     width: 75%;
     padding-left: 20px;
@@ -23,7 +25,7 @@ $team-member-wide: '(min-width: 585px)';
     display: flex;
   }
   @include media-query($team-member-narrow-and-below) {
-    padding-bottom: 10px;
+    padding-top: 20px;
   }
   @include media-query($team-member-wide) {
     width: 25%;
