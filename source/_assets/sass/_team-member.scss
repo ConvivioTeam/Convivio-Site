@@ -5,7 +5,7 @@ $team-member-narrow-and-up: '(min-width: 375px)';
 $team-member-wide: '(min-width: 585px)';
 .team-member {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   @include media-query($team-member-narrow-and-below) {
     flex-direction: column;
   }
@@ -29,7 +29,7 @@ $team-member-wide: '(min-width: 585px)';
   }
   @include media-query($team-member-wide) {
     width: 25%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     position: relative;
     &::after {
       content: '';
