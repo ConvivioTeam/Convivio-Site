@@ -48,7 +48,12 @@ meta-title: About us
 
     <div class="team-member__section-two">
       <div class="team-member__image">
-        <img src="{{ member.data.image }}" />
+        <img
+          alt="Headshot of {{ member.data.first_name }}"
+          src="{{ member.data.image }}"
+          sizes="(min-width: 375px) and (max-width: 584px) 200px,(min-width: 585px) and (max-width: 739px) 25vw,(min-width: 740px) 160px,
+            200px"
+        />
       </div>
       <div class="team-member__callout">
         <h4 class="team-member__callout-title">Did you know...</h4>
