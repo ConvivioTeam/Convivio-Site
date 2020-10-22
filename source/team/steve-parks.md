@@ -10,7 +10,7 @@ image: '/_assets/images/team/steve-parks.jpg'
 external_links:
   - service: Twitter
     url: https://twitter.com/steveparks
-  - service: Linkedin
+  - service: LinkedIn
     url: https://www.linkedin.com/in/sjparks/
 ---
 

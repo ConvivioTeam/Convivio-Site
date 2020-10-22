@@ -12,7 +12,7 @@ external_links:
     url: https://www.twitter.com/lewisnyman
   - service: Instagram
     url: https://www.instagram.com/lewisnyman
-  - service: Linkedin
+  - service: LinkedIn
     url: https://www.linkedin.com/in/lewisnyman
 ---
 

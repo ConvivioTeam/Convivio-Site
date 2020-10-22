@@ -12,7 +12,7 @@ external_links:
     url: https://www.twitter.com/angelaburon
   - service: Instagram
     url: https://www.instagram.com/angelaburon
-  - service: Linkedin
+  - service: LinkedIn
     url: https://www.linkedin.com/in/angelaburon
 ---
 
