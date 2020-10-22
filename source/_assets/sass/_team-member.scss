@@ -99,7 +99,7 @@ $team-member-wide: '(min-width: 585px)';
 }
 .team-member__callout {
   background: $rajah;
-  padding: 5px 10px;
+  padding: 10px;
   @include media-query($team-member-wide) {
     margin-top: 10px;
   }
