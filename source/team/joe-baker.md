@@ -5,6 +5,7 @@ job: Tech Lead
 location: Birmingham
 readmore_link: 'https://blog.weareconvivio.com/meet-the-convivio-team-joe-baker-fb22d85b6a11'
 dyk: 'Joe owns an oud, but can’t play it.'
+dyk_link: 'https://medium.com/post-phd-world/learning-to-play-the-oud-e16350c2aeda'
 order: 4
 image: '/_assets/images/team/joe-baker.jpg'
 external_links:

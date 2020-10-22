@@ -25,7 +25,7 @@ meta-title: About us
         {{ member.templateContent }}
 
         <p class="team-member__read-more">
-          <a href="{{ member.data.readmore_link }}"
+          <a href="{{ member.data.readmore_link }}" target="_blank"
             >Read more about {{ member.data.first_name }}</a
           >
         </p>
@@ -38,7 +38,7 @@ meta-title: About us
           <li
             class="team-member__link team-member__link--{{ link.service | slug }}"
           >
-            <a href="{{link.url}}">{{ link.service}}</a>
+            <a href="{{link.url}}" target="_blank">{{ link.service}}</a>
           </li>
           {% endfor %}
         </ul>
@@ -52,7 +52,13 @@ meta-title: About us
       </div>
       <div class="team-member__callout">
         <h4 class="team-member__callout-title">Did you know...</h4>
-        <p class="team-member__callout-text">{{ member.data.dyk }}</p>
+        <p class="team-member__callout-text">
+          {% if member.data.dyk_link %}
+          <a href="{{ member.data.dyk_link }}" target="_blank">
+            {% endif %} {{ member.data.dyk }} {% if member.data.dyk_link %}
+          </a>
+          {% endif %}
+        </p>
       </div>
     </div>
   </div>
