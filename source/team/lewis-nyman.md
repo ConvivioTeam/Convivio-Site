@@ -2,7 +2,7 @@
 first_name: Lewis
 last_name: Nyman
 job: User Experience
-location: Portugal
+location: UK. Currently in Portugal
 readmore_link: 'https://blog.weareconvivio.com/meet-the-convivio-team-lewis-nyman-b2e5b2aa938e'
 dyk: 'Lewis is unexpectedly good at firing handguns.'
 order: 2
