@@ -15,6 +15,8 @@ external_links:
     url: https://www.instagram.com/joesb/
   - service: Medium
     url: https://medium.com/@joesb
+  - service: LinkedIn
+    url: https://www.linkedin.com/in/joe-baker-586a727/
 ---
 
 I lead our technology consulting, giving clients a pragmatic, independent, and plain-English view of the technology landscape for their services. I also lead the development teams in the prototyping and build phases.
