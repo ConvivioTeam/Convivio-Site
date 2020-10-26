@@ -14,13 +14,29 @@ meta-title: About us
   {% for member in collections.team %}
 
   <div class="team-member">
-    <div class="team-member__section-one">
-      <h3 class="team-member__name">
-        {{ member.data.first_name }} {{ member.data.last_name }}
-      </h3>
-      <p class="team-member__info">
-        {{ member.data.job }}, {{ member.data.location }}
-      </p>
+    <h3 class="team-member__name">
+      {{ member.data.first_name }} {{ member.data.last_name }}
+    </h3>
+    <p class="team-member__info">
+      {{ member.data.job }}, {{ member.data.location }}
+    </p>
+    <div class="team-member__image">
+      <img
+        alt="Headshot of {{ member.data.first_name }}"
+        src="{{ member.data.image }}"
+        sizes="(min-width: 375px) and (max-width: 584px) 200px,(min-width: 585px) and (max-width: 739px) 25vw,(min-width: 740px) 160px,
+          200px"
+      />
+      <div class="team-member__callout">
+        <h4 class="team-member__callout-title">Did you know...</h4>
+        <p class="team-member__callout-text">
+          {% if member.data.dyk_link %}
+          <a href="{{ member.data.dyk_link }}" target="_blank">
+            {% endif %} {{ member.data.dyk }} {% if member.data.dyk_link %}
+          </a>
+          {% endif %}
+        </p>
+      </div>
       <div class="team-member__bio">
         {{ member.templateContent }}
 
@@ -44,27 +60,6 @@ meta-title: About us
         </ul>
       </div>
       {% endif %}
-    </div>
-
-    <div class="team-member__section-two">
-      <div class="team-member__image">
-        <img
-          alt="Headshot of {{ member.data.first_name }}"
-          src="{{ member.data.image }}"
-          sizes="(min-width: 375px) and (max-width: 584px) 200px,(min-width: 585px) and (max-width: 739px) 25vw,(min-width: 740px) 160px,
-            200px"
-        />
-      </div>
-      <div class="team-member__callout">
-        <h4 class="team-member__callout-title">Did you know...</h4>
-        <p class="team-member__callout-text">
-          {% if member.data.dyk_link %}
-          <a href="{{ member.data.dyk_link }}" target="_blank">
-            {% endif %} {{ member.data.dyk }} {% if member.data.dyk_link %}
-          </a>
-          {% endif %}
-        </p>
-      </div>
     </div>
   </div>
 
