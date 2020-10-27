@@ -9,6 +9,17 @@ $team-member-wide: '(min-width: 585px)';
   margin-top: 30px;
   @include media-query($team-member-narrow-and-below) {
     flex-direction: column;
+    position: relative;
+    padding-bottom: 30px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 0;
+      height: 3px;
+      background: $keppel;
+    }
   }
 }
 .team-member__section-one {
@@ -22,17 +33,7 @@ $team-member-wide: '(min-width: 585px)';
 }
 .team-member__section-two {
   order: 1;
-  position: relative;
   padding-bottom: 30px;
-  &::after {
-    content: '';
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    bottom: 0;
-    height: 3px;
-    background: $keppel;
-  }
   @include media-query($team-member-narrow) {
     display: flex;
   }
@@ -41,6 +42,16 @@ $team-member-wide: '(min-width: 585px)';
   }
   @include media-query($team-member-wide) {
     width: 25%;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 0;
+      height: 3px;
+      background: $keppel;
+    }
   }
 }
 .team-member__name {
