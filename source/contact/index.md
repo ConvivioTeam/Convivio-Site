@@ -2,11 +2,10 @@
 layout: page
 title: Contact us
 meta-title: Contact us
-include-below: address.html
 ---
 
 
-<form action="/thank-you/" netlify>
+<form class="spacing-bottom" action="/thank-you/" netlify>
 
   <input type="hidden" name="utf8" value="✓">
 
