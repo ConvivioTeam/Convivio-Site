@@ -5,7 +5,7 @@ meta-title: Contact us
 ---
 
 
-<form action="/thank-you/" netlify>
+<form class="spacing-bottom" action="/thank-you/" netlify>
 
   <input type="hidden" name="utf8" value="✓">
 
