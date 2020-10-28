@@ -10,7 +10,6 @@ $team-member-wide: '(min-width: 585px)';
   @include media-query($team-member-narrow-and-below) {
     flex-direction: column;
     position: relative;
-    padding-bottom: 30px;
     &::after {
       content: '';
       position: absolute;
