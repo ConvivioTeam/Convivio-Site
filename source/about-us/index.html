@@ -1,0 +1,147 @@
+---
+layout: full-width
+title: We help organisations<br class="full-width-only" /> work better for people
+description: We help organisations work better for people. Our ambition is to do good for a million people.
+meta-title: About us
+---
+
+<div class="content-container content-container--bottom content-container--top">
+  <h2 class="site-heading">Our people</h2>
+  <p class="intro-copy">
+    Meet our multi-disciplinary team who make government work better for people.
+  </p>
+
+  {% for member in collections.team %}
+
+  <div class="team-member">
+    <div class="team-member__section-one">
+      <h3 class="team-member__name">
+        {{ member.data.first_name }} {{ member.data.last_name }}
+      </h3>
+      <p class="team-member__info">
+        {{ member.data.job }}, {{ member.data.location }}
+      </p>
+      <div class="team-member__bio">
+        {{ member.templateContent }}
+
+        <p class="team-member__read-more">
+          <a href="{{ member.data.readmore_link }}" target="_blank"
+            >Read more about {{ member.data.first_name }}</a
+          >
+        </p>
+      </div>
+      {% if member.data.external_links %}
+      <div class="team-member__links">
+        <h4 class="hide-text">Social media links</h4>
+        <ul>
+          {% for link in member.data.external_links %}
+          <li
+            class="team-member__link team-member__link--{{ link.service | slug }}"
+          >
+            <a href="{{link.url}}" target="_blank">{{ link.service}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="team-member__section-two">
+      <div class="team-member__image">
+        <img
+          alt="Headshot of {{ member.data.first_name }}"
+          src="{{ member.data.image }}"
+          sizes="(min-width: 375px) and (max-width: 584px) 200px,(min-width: 585px) and (max-width: 739px) 25vw,(min-width: 740px) 160px,
+            200px"
+        />
+      </div>
+      <div class="team-member__callout">
+        <h4 class="team-member__callout-title">Did you know...</h4>
+        <p class="team-member__callout-text">
+          {% if member.data.dyk_link %}
+          <a href="{{ member.data.dyk_link }}" target="_blank">
+            {% endif %} {{ member.data.dyk }} {% if member.data.dyk_link %}
+          </a>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+</div>
+
+<div class="content-container content-container content-container--bottom">
+  <p class="intro-copy spacing-top">
+    We're a small business, but growing every day.
+    <a
+      href="https://blog.weareconvivio.com/who-is-convivio-in-2020-a-people-analytics-update-9180547eee85"
+      target="_blank"
+      >Find out how we're using people analytics to grow a healthy agency.</a
+    >
+  </p>
+</div>
+
+<div class="cheese-wedge cheese-wedge--rajah cheese-wedge--align-left">
+  <div class="cheese-wedge__inner">
+    <div class="cheese-wedge__copy">
+      <h2 class="site-heading">Our focus</h2>
+      <ol class="big-numbers-list">
+        <li>
+          Developing, using and sharing a solid professional process with better
+          ways to work.
+        </li>
+        <li>
+          Helping changemakers in large organisations deliver positive
+          transformation in the way their organisation works and serve their
+          audiences using digital technology.
+        </li>
+        <li>
+          Building healthy, long-term partnerships with clients and other
+          agencies.
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="cheese-wedge cheese-wedge--aquamarine cheese-wedge--right">
+  <div class="cheese-wedge__inner">
+    <div class="cheese-wedge__copy">
+      <h2 class="site-heading">Our culture</h2>
+
+      <ol class="big-numbers-list">
+        <li>
+          <h3 class="big-numbers-list__title">Healthy</h3>
+          Putting people first, looking after ourselves and others, looking
+          long-term, working sustainably. Working with integrity, being honest
+          and frank, being ethical, earning trust. Doing the right thing.
+        </li>
+        <li>
+          <h3 class="big-numbers-list__title">Professional</h3>
+          Developing our talents and tools, asking great questions, having high
+          standards and ensuring quality. Achieving excellence. Doing things
+          right.
+        </li>
+        <li>
+          <h3 class="big-numbers-list__title">Ambitious</h3>
+          Growing ourselves, our knowledge and our expertise. Constantly seeking
+          to be better. Aiming higher. Thinking long term. Change the world. Do
+          things big.
+        </li>
+        <li>
+          <h3 class="big-numbers-list__title">Delivering</h3>
+          Focus and momentum. Meeting the expectations of others. Getting things
+          done.
+        </li>
+        <li>
+          <h3 class="big-numbers-list__title">Sharing</h3>
+          Extreme transparency, amazing communication, brilliant collaboration,
+          being open with our work, being consultative, and spreading success.
+          Doing things together.
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+{% include 'services.html' %}
