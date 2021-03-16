@@ -22,7 +22,7 @@ These terms of use refer to the following additional terms, which also apply to 
 
 ## Information about us
 
-Our site is operated by Convivio Team Ltd ("We"). We are registered in England and Wales under company number 10213988 and have our registered office at 34b York Way, London, N1 9AB. Our main trading address is The Gridiron Building, One Pancras Square, London, N1C 4AG.
+Our site is operated by Convivio Team Ltd ("We"). We are registered in England and Wales under company number 10213988 and have our registered office at 34b York Way, London, N1 9AB. Our main address is 27 Old Gloucester Street, London, WC1N 3AX.
 
 We are a limited company.
 
