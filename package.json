@@ -11,11 +11,11 @@
     "serve": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "dotenv": "^8.2.0",
     "eleventy-plugin-local-respimg": "^0.3.1",
     "fibers": "^5.0.0",
-    "sass": "^1.27.0",
+    "sass": "^1.32.8",
     "sass-svg": "^1.2.0",
     "sassdash": "^0.9.0"
   },
