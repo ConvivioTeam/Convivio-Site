@@ -7,7 +7,7 @@ Convivio Team Ltd ("We") are committed to protecting and respecting your privacy
 
 This policy (together with our terms of use and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting convivio.com you are accepting and consenting to the practices described in this policy.
 
-For the purpose of the Data Protection Act 1998 (the Act), the data controller is Convivio Team Ltd of The GridIron Building, One Pancras Square, London, N1C 4AG.
+For the purpose of the Data Protection Act 1998 (the Act), the data controller is Convivio Team Ltd of 27 Old Gloucester Street, London, WC1N 3AX.
 
 ## Information we may collect from you
 
